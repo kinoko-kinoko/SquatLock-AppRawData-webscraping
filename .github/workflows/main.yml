@@ -22,19 +22,24 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Run scraper for Japan
-        run: python main.py jp
+      - name: Run scraper for Giant Catalog (JP)
+        run: python main.py giant jp
 
-      # Note: To add more countries, simply add more run steps here.
-      # For example:
-      # - name: Run scraper for United States
-      #   run: python main.py us
+      - name: Run scraper for Supplement Catalog (JP)
+        run: python main.py supplement jp
+
+      # Note: To add more countries, add more run steps for each mode.
+      # Example:
+      # - name: Run scraper for Giant Catalog (US)
+      #   run: python main.py giant us
+      # - name: Run scraper for Supplement Catalog (US)
+      #   run: python main.py supplement us
 
       - name: Commit and push if files changed
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: 'docs: Update app rankings data'
-          file_pattern: 'BigCatalogRawDate/*.json'
+          file_pattern: 'BigCatalogRawData/*.json SupplementCatalogRawData/*.json'
           commit_user_name: 'github-actions[bot]'
           commit_user_email: 'github-actions[bot]@users.noreply.github.com'
           commit_author: 'github-actions[bot] <github-actions[bot]@users.noreply.github.com>'
