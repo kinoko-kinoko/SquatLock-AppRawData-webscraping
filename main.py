@@ -68,6 +68,8 @@ def get_app_data(country_code):
             for entry in entries:
                 try:
                     app_id = entry.get("id", {}).get("attributes", {}).get("im:id")
+                    bundle_id = entry.get("id", {}).get("attributes", {}).get("im:bundleId")
+
                     if not app_id or app_id in processed_app_ids:
                         continue
 
@@ -79,8 +81,13 @@ def get_app_data(country_code):
                             icon_url = image.get("label")
                             break
 
-                    if name and icon_url:
-                        all_apps.append({"name": name, "icon_url": icon_url})
+                    if name and icon_url and bundle_id:
+                        all_apps.append({
+                            "id": app_id,
+                            "bundle_id": bundle_id,
+                            "name": name,
+                            "icon_url": icon_url
+                        })
                         processed_app_ids.add(app_id)
 
                 except (AttributeError, TypeError) as e:
