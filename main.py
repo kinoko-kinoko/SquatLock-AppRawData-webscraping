@@ -3,6 +3,8 @@ import json
 import random
 import time
 import requests
+import os
+from datetime import datetime
 
 # --- Constants ---
 
@@ -35,19 +37,16 @@ def get_app_data(country_code):
 
     for genre_id in ALL_GENRE_IDS:
         for feed_type in FEED_TYPES:
-            # Construct URL
             url = BASE_URL.format(
                 country=country_code,
                 feed_type=feed_type,
                 genre_id=genre_id
             )
 
-            # Random delay between 2 and 7 seconds
             delay = random.uniform(2, 7)
             print(f"Waiting for {delay:.2f} seconds before fetching: {url}")
             time.sleep(delay)
 
-            # Make HTTP request
             try:
                 response = requests.get(url, timeout=30)
                 response.raise_for_status()
@@ -59,7 +58,6 @@ def get_app_data(country_code):
                 print(f"Error decoding JSON from {url}")
                 continue
 
-            # Parse JSON response
             entries = data.get("feed", {}).get("entry")
             if not entries:
                 print(f"No entries found for {url}")
@@ -99,9 +97,14 @@ def get_app_data(country_code):
 
 def save_to_json(data, country_code):
     """
-    Saves the collected app data to a JSON file.
+    Saves the collected app data to a JSON file in the specified directory.
     """
-    filename = f"app_rankings_{country_code}.json"
+    dir_name = "BigCatalogRawDate"
+    os.makedirs(dir_name, exist_ok=True)
+
+    date_str = datetime.now().strftime("%Y%m%d")
+    filename = f"{dir_name}/catalog_{country_code}_RawData_{date_str}.json"
+
     print(f"Saving data to {filename}...")
     with open(filename, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
