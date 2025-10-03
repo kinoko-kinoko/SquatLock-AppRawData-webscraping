@@ -1,0 +1,2 @@
+# SquatLock-AppRawData-webscraping
+Appstoreのウェブから各国のアプリランキングをスクレイピングしたアプリ名を収集、その後iTunes Search APIでアプリIDなどを調べた生Jsonファイルを作成する
