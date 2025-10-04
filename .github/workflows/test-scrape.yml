@@ -23,6 +23,9 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Clean up previous run artifacts
+        run: rm -rf BigCatalogRawData/ SupplementCatalogRawData/ BuiltInCatalogRawData/
+
       - name: Run scraper for Giant Catalog (Limited)
         run: python main.py giant ${{ matrix.country }} --limit 10
 
@@ -51,6 +54,9 @@ jobs:
 
       - name: Install dependencies
         run: pip install -r requirements.txt
+
+      - name: Clean up previous run artifacts
+        run: rm -rf BigCatalogRawData/ SupplementCatalogRawData/ BuiltInCatalogRawData/
 
       - name: Run scraper for Built-in Catalog (Limited)
         run: python main.py builtin --limit 10

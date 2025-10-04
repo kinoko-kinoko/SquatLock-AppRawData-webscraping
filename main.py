@@ -176,7 +176,7 @@ def run_giant_mode(country_code: str, limit: Optional[int]):
             all_apps.extend(get_app_data(country_code, genre_id, feed_type, limit or 100, processed_ids))
 
     if all_apps:
-        date_str = datetime.now().strftime("%Y%m%d")
+        date_str = datetime.now().strftime("%Y%m%d%H%M%S")
         filename = f"catalog_{country_code}_RawData_{date_str}.json"
         save_to_json(all_apps, filename, "BigCatalogRawData")
 
@@ -192,7 +192,7 @@ def run_supplement_mode(country_code: str, limit: Optional[int]):
         all_apps.extend(get_app_data(country_code, genre_id, "topfreeapplications", limit or 100, processed_ids))
 
     if all_apps:
-        date_str = datetime.now().strftime("%Y%m%d")
+        date_str = datetime.now().strftime("%Y%m%d%H%M%S")
         filename = f"catalog_supplement_{country_code}_RawData_{date_str}.json"
         save_to_json(all_apps, filename, "SupplementCatalogRawData")
 
@@ -221,7 +221,7 @@ def run_builtin_mode(limit: Optional[int]):
             all_apps.extend(get_app_data(country, feed['genre_id'], feed['feed_type'], fetch_limit, processed_ids))
 
     if all_apps:
-        date_str = datetime.now().strftime("%Y%m%d")
+        date_str = datetime.now().strftime("%Y%m%d%H%M%S")
         filename = f"BuiltInCatalog_RawData_{date_str}.json"
         save_to_json(all_apps, filename, "BuiltInCatalogRawData")
 
