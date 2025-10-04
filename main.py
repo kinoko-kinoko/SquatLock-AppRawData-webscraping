@@ -82,8 +82,10 @@ def save_to_json(data: List[Dict[str, Any]], filename: str, directory: str):
 
 # --- Enrich Mode Functions ---
 
-def get_seller_url(track_id: str) -> Optional[str]:
-    """Gets the sellerUrl from the iTunes Search API."""
+def get_seller_url(track_id: str, bundle_id: str) -> Optional[str]:
+    """
+    Gets the sellerUrl from the iTunes Search API, ensuring both trackId and bundleId match.
+    """
     url = LOOKUP_URL.format(track_id=track_id)
     time.sleep(random.uniform(3, 5))
     try:
@@ -91,10 +93,22 @@ def get_seller_url(track_id: str) -> Optional[str]:
         response.raise_for_status()
         data = response.json()
         if data.get("resultCount", 0) > 0:
-            return data["results"][0].get("sellerUrl")
+            result = data["results"][0]
+            response_track_id = str(result.get("trackId"))
+            response_bundle_id = result.get("bundleId")
+
+            # CRITICAL: Verify that both the trackId and bundleId match the request.
+            if response_track_id == str(track_id) and response_bundle_id == bundle_id:
+                return result.get("sellerUrl")
+            else:
+                print(
+                    f"API returned mismatched data for requested ID {track_id}. "
+                    f"Expected bundleId: {bundle_id}, but got: {response_bundle_id}."
+                )
+                return None
     except requests.RequestException as e:
         print(f"API request failed for track ID {track_id}: {e}")
-    except (json.JSONDecodeError, IndexError) as e:
+    except (json.JSONDecodeError, IndexError, KeyError) as e:
         print(f"Error parsing API response for track ID {track_id}: {e}")
     return None
 
@@ -122,8 +136,8 @@ def fetch_enrichment_data(app: Dict[str, str]) -> Tuple[str, Dict[str, Any]]:
     """Wrapper function to fetch all enrichment data for a single app."""
     track_id = app["id"]
     bundle_id = app["bundle_id"]
-    print(f"Enriching app ID: {track_id}")
-    seller_url = get_seller_url(track_id)
+    # Pass both track_id and bundle_id for validation
+    seller_url = get_seller_url(track_id, bundle_id)
     universal_links = find_universal_links(seller_url, bundle_id)
     return track_id, {"sellerUrl": seller_url, "universal_links": universal_links}
 
@@ -291,36 +305,43 @@ def run_enrich_catalogs_mode(date_str: str, limit: Optional[int] = None):
         print(f"Applying limit: processing first {limit} apps.")
         apps_to_process = apps_to_process[:limit]
 
-    total_apps = len(apps_to_process)
-    enriched_apps = []
+    enriched_data_map = {}
+    with ThreadPoolExecutor(max_workers=10) as executor:
+        future_to_app = {executor.submit(fetch_enrichment_data, app): app for app in apps_to_process}
 
-    for i, app in enumerate(apps_to_process):
-        bundle_id = app.get("bundle_id", "N/A")
-        print(f"Enriching {i+1}/{total_apps}: {bundle_id}")
+        total_apps = len(apps_to_process)
+        for i, future in enumerate(as_completed(future_to_app)):
+            original_app = future_to_app[future]
+            try:
+                track_id, enrichment_data = future.result()
+                if track_id:
+                    enriched_data_map[track_id] = enrichment_data
+                    print(f"Successfully enriched {i+1}/{total_apps}: App ID {track_id}")
+                else:
+                    print(f"Failed to get track_id for an app, skipping.")
+            except Exception as exc:
+                original_track_id = original_app.get('id', 'N/A')
+                print(f"App ID {original_track_id} generated an exception during enrichment: {exc}")
 
+    # Build the final list with enriched data, ensuring data integrity
+    final_enriched_list = []
+    for app in consolidated_apps:
         track_id = app.get("id")
-        if not track_id:
-            # Add app with empty enrichment data if track_id is missing
-            app["sellerUrl"] = None
-            app["universal_links"] = []
-            enriched_apps.append(app)
-            continue
+        new_app_data = app.copy()  # Start with a copy of the original app data
+        if track_id in enriched_data_map:
+            new_app_data.update(enriched_data_map[track_id])
+        else:
+            # Ensure keys exist even if enrichment failed or was skipped (due to limit)
+            new_app_data.setdefault("sellerUrl", None)
+            new_app_data.setdefault("universal_links", [])
+        final_enriched_list.append(new_app_data)
 
-        # Fetch enrichment data
-        seller_url = get_seller_url(track_id)
-        universal_links = find_universal_links(seller_url, app.get("bundle_id"))
-
-        # Add data to the app object
-        app["sellerUrl"] = seller_url
-        app["universal_links"] = universal_links
-        enriched_apps.append(app)
-
-    print(f"\nEnrichment complete. Processed {len(enriched_apps)} apps.")
+    print("\nEnrichment process complete.")
 
     # Save final enriched data
     output_dir_enriched = "UlAdd"
     output_filename_enriched = f"catalog_all_UlAdd_{date_str}.json"
-    save_to_json(enriched_apps, output_filename_enriched, output_dir_enriched)
+    save_to_json(final_enriched_list, output_filename_enriched, output_dir_enriched)
 
 def main():
     """Main function to parse arguments and run the specified mode."""
