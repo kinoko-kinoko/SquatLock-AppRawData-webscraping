@@ -50,7 +50,13 @@ def get_app_data(country_code: str, genre_id: int, feed_type: str, limit: int, p
         print(f"Error fetching or decoding {url}: {e}")
         return []
 
-    entries = data.get("feed", {}).get("entry", [])
+    feed = data.get("feed", {})
+    entries = feed.get("entry", [])
+
+    # Handle case where a single entry is a dict, not a list
+    if isinstance(entries, dict):
+        entries = [entries]
+
     if not entries:
         print(f"No entries found for {url}")
         return []
@@ -59,7 +65,20 @@ def get_app_data(country_code: str, genre_id: int, feed_type: str, limit: int, p
     for entry in entries:
         try:
             app_id = entry.get("id", {}).get("attributes", {}).get("im:id")
-            bundle_id = entry.get("im:bundleId", {}).get("label") # Corrected path to bundleId
+
+            # Robustly find bundle_id from multiple possible locations
+            bundle_id = None
+            im_bundle_id_node = entry.get("im:bundleId")
+            if isinstance(im_bundle_id_node, dict):
+                bundle_id = im_bundle_id_node.get("label")
+
+            if not bundle_id:
+                id_node = entry.get("id")
+                if isinstance(id_node, dict):
+                    attributes_node = id_node.get("attributes")
+                    if isinstance(attributes_node, dict):
+                        bundle_id = attributes_node.get("im:bundleId")
+
             if not app_id or app_id in processed_app_ids:
                 continue
             name = entry.get("im:name", {}).get("label")
@@ -348,36 +367,43 @@ def main():
     parser = argparse.ArgumentParser(description="Scrape and enrich App Store data.")
     parser.add_argument("mode", choices=["giant", "supplement", "builtin", "enrich", "enrich_catalogs"], help="The mode to run.")
     # Make 'argument' optional to support 'builtin' mode which takes no argument.
-    parser.add_argument("argument", nargs='?', default=None, help="Depends on mode: country_code for giant/supplement, directory_path for enrich, or date (YYYYMMDD) for enrich_catalogs.")
+    parser.add_argument("argument", nargs='?', default=None, help="Depends on mode: country_code, directory_path, or date (YYYYMMDD).")
     parser.add_argument("--limit", type=int, help="Limit the number of items processed for testing.")
     args = parser.parse_args()
 
-    # Validate argument presence for modes that require it.
-    if args.mode in ["giant", "supplement", "enrich", "enrich_catalogs"]:
-        if args.argument is None:
-            parser.error(f"Mode '{args.mode}' requires an argument.")
+    # --- Mode Dispatching ---
 
-    if args.mode in ["giant", "supplement"]:
+    if args.mode == 'builtin':
+        if args.argument is not None:
+            parser.error("Mode 'builtin' does not take an argument.")
+        run_builtin_mode(args.limit)
+        return
+
+    # All other modes require an argument.
+    if args.argument is None:
+        parser.error(f"Mode '{args.mode}' requires an argument.")
+
+    if args.mode == 'giant':
         if len(args.argument) != 2:
-            parser.error(f"A two-letter country_code is required for mode '{args.mode}'")
+            parser.error(f"Mode '{args.mode}' requires a two-letter country_code.")
         run_giant_mode(args.argument, args.limit)
-    elif args.mode == "enrich_catalogs":
+
+    elif args.mode == 'supplement':
+        if len(args.argument) != 2:
+            parser.error(f"Mode '{args.mode}' requires a two-letter country_code.")
+        run_supplement_mode(args.argument, args.limit)
+
+    elif args.mode == 'enrich':
+        if not os.path.isdir(args.argument):
+             parser.error(f"Mode '{args.mode}' requires a valid directory path.")
+        run_enrich_mode(args.argument, args.limit)
+
+    elif args.mode == 'enrich_catalogs':
         try:
             datetime.strptime(args.argument, "%Y%m%d")
         except ValueError:
-            parser.error("A valid date string in YYYYMMDD format is required for mode 'enrich_catalogs'")
+            parser.error(f"Mode '{args.mode}' requires a valid date string in YYYYMMDD format.")
         run_enrich_catalogs_mode(args.argument, args.limit)
-    elif args.mode == "enrich":
-        if not os.path.isdir(args.argument):
-             parser.error(f"A valid directory path is required for mode '{args.mode}'")
-        run_enrich_mode(args.argument, args.limit)
-    elif args.mode == "builtin":
-        # 'builtin' mode does not use the 'argument', so we call it directly.
-        run_builtin_mode(args.limit)
-    elif args.mode == "giant":
-        run_giant_mode(args.argument, args.limit)
-    elif args.mode == "supplement":
-        run_supplement_mode(args.argument, args.limit)
 
 if __name__ == "__main__":
     main()
