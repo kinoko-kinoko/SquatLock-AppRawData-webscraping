@@ -22,6 +22,14 @@ OTHER_GENRE_IDS = [
     6008, 6007, 6006, 6024, 6005, 6004, 6003, 6002, 6001
 ]
 
+BUILTIN_COUNTRIES = [
+    'us', 'cn', 'de', 'jp', 'in', 'gb', 'fr', 'it', 'br', 'ca', 'ru', 'mx',
+    'au', 'kr', 'es', 'id', 'tr', 'nl', 'sa', 'ch', 'pl', 'tw', 'ar', 'be',
+    'se', 'ie', 'ae', 'il', 'sg', 'th', 'at', 'no', 'vn', 'ph', 'bd', 'co',
+    'my', 'za', 'dk', 'hk', 'ro', 'eg', 'cl', 'cz', 'ir', 'pt', 'fi', 'kz',
+    'pe', 'gr'
+]
+
 # --- Scraping and Data Handling ---
 
 def get_app_data(country_code: str, genre_id: int, feed_type: str, limit: int, processed_app_ids: Set[str]) -> List[Dict[str, Any]]:
@@ -121,18 +129,20 @@ def run_builtin_mode():
     print("--- Running in BUILTIN mode ---")
     all_apps = []
     processed_ids = set()
-    countries = ['us', 'cn', 'jp']
-    # Genre ID and limit pairs
-    feeds_to_fetch = {
-        6014: 100, # Games
-        6016: 50,  # Entertainment
-        6005: 50,  # Social Networking
-        6024: 50,  # Shopping
-    }
+    countries = BUILTIN_COUNTRIES
+
+    feeds_to_fetch = [
+        {'genre_id': 6014, 'limit': 100, 'feed_type': 'toppaidapplications'},
+        {'genre_id': 6014, 'limit': 100, 'feed_type': 'topfreeapplications'},
+        {'genre_id': 6016, 'limit': 50, 'feed_type': 'topfreeapplications'},
+        {'genre_id': 6005, 'limit': 50, 'feed_type': 'topfreeapplications'},
+        {'genre_id': 6024, 'limit': 50, 'feed_type': 'topfreeapplications'},
+        {'genre_id': 6018, 'limit': 50, 'feed_type': 'topfreeapplications'},
+    ]
 
     for country in countries:
-        for genre_id, limit in feeds_to_fetch.items():
-            all_apps.extend(get_app_data(country, genre_id, "topfreeapplications", limit, processed_ids))
+        for feed in feeds_to_fetch:
+            all_apps.extend(get_app_data(country, feed['genre_id'], feed['feed_type'], feed['limit'], processed_ids))
 
     if all_apps:
         date_str = datetime.now().strftime("%Y%m%d")
@@ -161,7 +171,7 @@ def main():
     args = parser.parse_args()
 
     if args.mode in ["giant", "supplement"] and not args.country_code:
-        parser.error(f"--country_code is required for mode '{args.mode}'")
+        parser.error(f"country_code is required for mode '{args.mode}'")
 
     if args.mode == "giant":
         run_giant_mode(args.country_code)
