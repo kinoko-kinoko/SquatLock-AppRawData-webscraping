@@ -64,7 +64,7 @@
     "bundle_id": "com.google.chrome.ios",
     "name": "Google Chrome",
     "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/c9/71/31/c9713133-5273-0a06-1453-0974b62a1290/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.jpg",
-    "sellerUrl": "http://maps.google.com/about",
+    "sellerUrl": null,
     "universal_links": []
   },
   {
@@ -72,7 +72,7 @@
     "bundle_id": "com.twitter.twitter",
     "name": "X",
     "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/c9/71/31/c9713133-5273-0a06-1453-0974b62a1290/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.jpg",
-    "sellerUrl": "http://x.com/download/iphone",
+    "sellerUrl": null,
     "universal_links": []
   },
   {
@@ -96,7 +96,7 @@
     "bundle_id": "com.google.android.apps.maps",
     "name": "Google Maps",
     "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/c9/71/31/c9713133-5273-0a06-1453-0974b62a1290/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.jpg",
-    "sellerUrl": "http://instagram.com/",
+    "sellerUrl": null,
     "universal_links": []
   },
   {
@@ -104,7 +104,7 @@
     "bundle_id": "com.google.chrome.ios",
     "name": "Google Chrome",
     "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/c9/71/31/c9713133-5273-0a06-1453-0974b62a1290/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.jpg",
-    "sellerUrl": "http://www.pinterest.com",
+    "sellerUrl": null,
     "universal_links": []
   },
   {
@@ -112,7 +112,7 @@
     "bundle_id": "com.google.mail",
     "name": "Gmail",
     "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/c9/71/31/c9713133-5273-0a06-1453-0974b62a1290/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.jpg",
-    "sellerUrl": "https://www.youtube.com",
+    "sellerUrl": null,
     "universal_links": []
   },
   {
@@ -120,7 +120,7 @@
     "bundle_id": "com.google.YouTube",
     "name": "YouTube",
     "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/c9/71/31/c9713133-5273-0a06-1453-0974b62a1290/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.jpg",
-    "sellerUrl": "http://www.whatsapp.com/",
+    "sellerUrl": null,
     "universal_links": []
   },
   {
@@ -128,7 +128,7 @@
     "bundle_id": "com.instagram.ios",
     "name": "Instagram",
     "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/c9/71/31/c9713133-5273-0a06-1453-0974b62a1290/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.jpg",
-    "sellerUrl": "https://www.apple.com/apps/#pages",
+    "sellerUrl": null,
     "universal_links": []
   },
   {
@@ -144,7 +144,7 @@
     "bundle_id": "com.lyft.driver",
     "name": "Lyft",
     "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/c9/71/31/c9713133-5273-0a06-1453-0974b62a1290/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.jpg",
-    "sellerUrl": "https://translate.google.com/about?hl=en",
+    "sellerUrl": null,
     "universal_links": []
   },
   {
@@ -152,7 +152,7 @@
     "bundle_id": "com.amazon.mShop.ios",
     "name": "Amazon",
     "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/c9/71/31/c9713133-5273-0a06-1453-0974b62a1290/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.jpg",
-    "sellerUrl": "http://www.ebay.com/",
+    "sellerUrl": null,
     "universal_links": []
   },
   {
