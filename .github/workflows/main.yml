@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        country: [us, jp, cn, kr, in, gb, fr, sg, ru]
+        country: [us, cn, de, jp, in, gb, fr, it, br, ca, ru, mx, au, kr, es, id, tr, nl, sa, ch, pl, tw, ar, be, se, ie, ae, il, sg, th, at, no, vn, ph, bd, co, my, za, dk, hk, ro, eg, cl, cz, ir, pt, fi, kz, pe, gr]
       fail-fast: false
 
     steps:

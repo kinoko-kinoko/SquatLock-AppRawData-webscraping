@@ -1,0 +1,2396 @@
+[
+  {
+    "id": "6747067433",
+    "bundle_id": "jp.co.sundenshi.cafeterra1p",
+    "name": "e女神のカフェテラス",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/61/81/05/6181050c-ade1-af3c-ae87-a68bbf2dbf1e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "479516143",
+    "bundle_id": "com.mojang.minecraftpe",
+    "name": "Minecraft: クラフト、建築、サバイバル",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ae/89/97/ae899790-ab3e-3434-18ae-56780e735d0a/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6469114836",
+    "bundle_id": "cc.aladdinx.watermelon",
+    "name": "スイカゲーム-Aladdin X",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/dd/b3/0e/ddb30e41-4505-b2d0-ccfa-e996d9c1fcd8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6670469064",
+    "bundle_id": "com.PLAYISM.TheExit8",
+    "name": "８番出口",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0b/de/57/0bde5798-b991-b6ed-60e8-afc3b09e7161/AppIcon-0-0-1x_U007emarketing-0-3-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1542957396",
+    "bundle_id": "jp.co.level5.yws1",
+    "name": "妖怪ウォッチ1 スマホ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/79/5f/48/795f48e2-abb5-0b17-d114-3bb84bd22219/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1356172905",
+    "bundle_id": "com.Majorariatto.GOI",
+    "name": "Golfing Over It",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/47/1d/25/471d25b7-76a5-9252-4368-84ad3ab84c04/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png"
+  },
+  {
+    "id": "1496918059",
+    "bundle_id": "com.square-enix.DQM2SPjp",
+    "name": "ドラゴンクエストモンスターズ2　イルとルカの不思議な鍵SP",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/a1/ed/d9/a1edd9eb-64f3-eb49-e0a4-e2d19cb8fa22/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6741251510",
+    "bundle_id": "net.commseed.psmhrise",
+    "name": "スマスロ モンスターハンターライズ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/96/2c/e1/962ce147-61d3-9267-47b0-ee679630debe/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6446021269",
+    "bundle_id": "jp.co.capcom.rxdoff",
+    "name": "ロックマンX DiVE オフライン",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/d1/a8/cb/d1a8cb78-8bdd-04dc-4f2b-6573d1e52d33/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png"
+  },
+  {
+    "id": "6670434812",
+    "bundle_id": "net.commseed.pskarakuricircus",
+    "name": "パチスロ からくりサーカス",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/62/8e/03/628e0341-0c06-b2bb-764e-7d42ca06a892/AppIcon-0-0-1x_U007epad-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6476544023",
+    "bundle_id": "jp.dorasu.apps.monkeyturn5",
+    "name": "【激J slot】スマスロモンキーターンⅤ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/52/a8/39/52a83903-36be-2dc7-df17-af0adff726c9/AppIcon-1x_U007emarketing-0-9-0-85-220-0.png/100x100bb.png"
+  },
+  {
+    "id": "1491530147",
+    "bundle_id": "com.humblebundle.slaythespire",
+    "name": "Slay the Spire",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/91/0c/92/910c920a-0ab6-1939-e297-083995b640c7/AppIcon-1x_U007emarketing-0-11-0-0-85-220-0.png/100x100bb.png"
+  },
+  {
+    "id": "6502453075",
+    "bundle_id": "com.playstack.balatropremium",
+    "name": "Balatro",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6d/d3/0c/6dd30caf-f830-22d5-ba44-448cdff0df30/iOS_AppIcon_Premium-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6547834967",
+    "bundle_id": "com.nintendo.zasa",
+    "name": "どうぶつの森 ポケットキャンプ コンプリート",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2e/d8/cb/2ed8cbc4-e7dc-ec02-bfa3-e4f5641c9a97/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/100x100bb.png"
+  },
+  {
+    "id": "6749560544",
+    "bundle_id": "net.kairosoft.iOS.demoncastle",
+    "name": "魔王城ものがたり",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8e/72/c5/8e72c507-201a-6daa-1c6e-7ab2d9a95e93/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "933111586",
+    "bundle_id": "com.square-enix.dq5j",
+    "name": "ドラゴンクエストV 天空の花嫁",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bb/49/61/bb4961c0-e011-fe61-e4b9-04eb2b17b037/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "525818839",
+    "bundle_id": "com.ndemiccreations.plagueinc",
+    "name": "Plague Inc. -伝染病株式会社-",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b4/3d/79/b43d7977-667a-9d0d-66b4-9ae4d4af35d8/AppIcon-0-0-1x_U007emarketing-0-8-0-0-sRGB-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1468034815",
+    "bundle_id": "com.dmm.games.humanff",
+    "name": "ヒューマン フォール フラット",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cc/4c/c1/cc4cc108-9be7-0d4b-293e-0a7a13c47717/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png"
+  },
+  {
+    "id": "6504323939",
+    "bundle_id": "com.square-enix.dq10offline",
+    "name": "ドラゴンクエストX　目覚めし五つの種族　オフライン",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9a/f5/98/9af59870-082c-0eb1-8984-4380e115e71b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6463374016",
+    "bundle_id": "net.commseed.psvalvrave",
+    "name": "パチスロ 革命機ヴァルヴレイヴ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2b/d2/0b/2bd20bf0-249a-b013-21da-c66da6648561/AppIcon-0-0-1x_U007epad-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1406710800",
+    "bundle_id": "com.chucklefish.stardewvalley",
+    "name": "Stardew Valley 「スターデューバレー」",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/43/e0/e5/43e0e534-98da-6adf-b6f3-1df01c9c9f81/AppIcons-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1239299402",
+    "bundle_id": "jp.co.capcom.sf4cewd",
+    "name": "ストリートファイターIV CHAMPION EDITION",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/56/2c/01/562c01be-8319-1855-4b3c-b7e79d2fda67/AppIcon-0-0-1x_U007emarketing-0-9-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6463375487",
+    "bundle_id": "net.commseed.ps-ssg5",
+    "name": "L戦国乙女4 戦乱に閃く炯眼の軍師",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3a/35/c1/3a35c183-d2ee-f5dc-71c0-56bbedeb7fc8/AppIcon-0-0-1x_U007epad-0-10-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1034159412",
+    "bundle_id": "com.square-enix.dq7j",
+    "name": "ドラゴンクエストVII エデンの戦士たち",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5c/02/2a/5c022ad7-ad57-99ff-8129-7d9afd3a40ef/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6450724928",
+    "bundle_id": "com.trampolinetales.luckbealandlord",
+    "name": "幸運の大家様",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/aa/d1/93/aad193ab-3a54-5a33-56d0-e4c991183585/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6742165091",
+    "bundle_id": "jp.sammynet.appstore.cp0002",
+    "name": "スマスロ北斗の拳",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/41/6f/2d/416f2d07-a64a-2c2d-bbe1-2e15ef1758cd/AppIcon-1x_U007ephone-0-85-220-0.png/100x100bb.png"
+  },
+  {
+    "id": "6508165149",
+    "bundle_id": "com.strayfawnstudio.dungeonclawlermobile",
+    "name": "ダンジョンクロウラー幸運ウサギと魔法の爪",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/07/3e/3a/073e3adc-e91a-a875-1bc3-4e8f083e97c2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "949737947",
+    "bundle_id": "com.square-enix.dq6j",
+    "name": "ドラゴンクエストVI 幻の大地",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8d/94/88/8d94882d-7d3a-680f-b3ec-9f1478070862/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6478494156",
+    "bundle_id": "net.commseed.psfireforce",
+    "name": "パチスロ 炎炎ノ消防隊",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a4/0a/f9/a40af9d3-ac73-79b2-19c5-83ce18401c5a/AppIcon-0-0-1x_U007epad-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "793749059",
+    "bundle_id": "com.square-enix.dq4j",
+    "name": "ドラゴンクエストIV 導かれし者たち",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f1/5b/fb/f15bfbab-cf0c-309a-d574-3135fb5de5c6/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "730263398",
+    "bundle_id": "com.square-enix.dq8j",
+    "name": "ドラゴンクエストVIII 空と海と大地と呪われし姫君",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/48/2c/ac/482cac36-6dde-28e9-011a-532b0db6f403/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "793660476",
+    "bundle_id": "jp.co.spike-chunsoft.terrariajp",
+    "name": "テラリア",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ed/7d/5e/ed7d5e23-9736-c14f-ed83-3c5e7b5ea780/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png"
+  },
+  {
+    "id": "1642733080",
+    "bundle_id": "com.GameCoaster.Dungeon-Squad",
+    "name": "ダンジョンスクワッド",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/11/a7/c0/11a7c0ff-3b60-8eec-6d93-1f20b93d45df/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "469342624",
+    "bundle_id": "jp.co.capcom.rockmanxjp",
+    "name": "ロックマンX",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4d/61/c8/4d61c8df-6725-9b4e-73b0-6d6df7700dce/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/100x100bb.png"
+  },
+  {
+    "id": "1319618742",
+    "bundle_id": "net.Foddy.GettingOverIt",
+    "name": "Getting Over It",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/5e/1e/40/5e1e40d4-45fc-94d8-fbc6-f35f4fbf6fb7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1361473095",
+    "bundle_id": "com.xd.musedash",
+    "name": "MuseDash",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0e/64/59/0e64590c-9515-6ef2-3ed4-9a7f8e1df66d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6744677301",
+    "bundle_id": "com.paondp.simhib",
+    "name": "[パチスロ]いざ！番長",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e1/18/00/e1180027-ddcc-ef54-6a43-6c3b1250e7a1/AppIcon_sim-0-0-1x_U007ephone-0-11-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6449832222",
+    "bundle_id": "net.commseed.evaasuhenohoukou",
+    "name": "新世紀エヴァンゲリオン～未来への咆哮～",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4b/55/3b/4b553b91-8c13-8797-1641-1e1a898fab4e/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1372670435",
+    "bundle_id": "com.square-enix.DQMTerryjp",
+    "name": "ドラゴンクエストモンスターズ　テリーのワンダーランドSP",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/f1/52/73/f152733c-05b8-63e5-e049-9ae3d82f6f99/AppIcon-0-1x_U007emarketing-0-85-220-0-7.png/100x100bb.png"
+  },
+  {
+    "id": "1573482724",
+    "bundle_id": "com.sidelabs.Denver",
+    "name": "Coffee Inc 2",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ef/a9/9d/efa99d3e-f047-fe83-1110-dfeb6701748c/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "479428095",
+    "bundle_id": "com.square-enix.chronotriggerjpn",
+    "name": "クロノ・トリガー （アップグレード版）",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/e5/53/15/e5531522-461a-724a-3411-2d6922fc4caa/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png"
+  },
+  {
+    "id": "1642707350",
+    "bundle_id": "com.square-enix.DragonQuestMonsters3jp",
+    "name": "ドラゴンクエストモンスターズ３　魔族の王子とエルフの旅",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1d/25/dc/1d25dc0f-a438-d562-0d30-5bae73c28075/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1456547302",
+    "bundle_id": "com.7thbeat.adofai",
+    "name": "A Dance of Fire and Ice",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e2/e7/ab/e2e7ab02-5768-ba37-40f3-a068574da964/AppIcon-0-0-1x_U007epad-0-9-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "446761242",
+    "bundle_id": "com.square-enix.fftjpn",
+    "name": "FINAL FANTASY TACTICS 獅子戦争",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/7e/83/65/7e8365b1-d143-51b2-d1e6-4640c03e5d06/AppIcon-1x_U007emarketing-0-4-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6749255805",
+    "bundle_id": "jp.co.loxarc.surveil.prod",
+    "name": "日本事故物件監視協会 -JSP-",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/16/f8/35/16f8353f-2427-11e0-2688-d9e1c4d22fff/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1293681293",
+    "bundle_id": "moonbear.PocketBuild",
+    "name": "Pocket Build",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a4/42/b6/a442b6c6-8161-dfce-5d18-ea3af0d9b424/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1601114348",
+    "bundle_id": "com.thylacinestudios.siralimultimate",
+    "name": "Siralim Ultimate",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/02/32/2c/02322ca4-f16f-bccd-88d9-70feb2fdf1cd/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1359652100",
+    "bundle_id": "com.GameCoaster.DungeonMaker",
+    "name": "ダンジョンメーカー",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/68/8f/5d/688f5dfd-e350-ec36-7fb6-528717c03a9b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6648792175",
+    "bundle_id": "com.YonGame.Pocket8192",
+    "name": "1/8192",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/11/b6/2e/11b62e0d-726c-80df-133f-69d4a7d82495/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6739317717",
+    "bundle_id": "jp.sammynet.appstore.cp0001",
+    "name": "パチスロ甲鉄城のカバネリ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/58/9b/2b/589b2be2-9dba-78cd-8475-45294a9b30cf/AppIcon-1x_U007ephone-0-85-220-0.png/100x100bb.png"
+  },
+  {
+    "id": "1093131935",
+    "bundle_id": "com.sofarsogood.incredibox",
+    "name": "Incredibox",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6a/03/e1/6a03e101-22d9-aa27-a270-0a6a65d500e8/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1621065119",
+    "bundle_id": "jp.co.capcom.gyakusai123",
+    "name": "逆転裁判123 成歩堂セレクション",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/00/c6/6f/00c66fb0-2155-e80e-c811-b67de1795236/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6738670095",
+    "bundle_id": "com.gmodecorp.atamaoshiri",
+    "name": "あたまおしりゲーム",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cd/4e/a3/cd4ea35b-9de7-ff56-59c9-2649a07564c3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6745775315",
+    "bundle_id": "com.universal777.arz417",
+    "name": "アレックス ブライト",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c0/e2/71/c0e27162-bbd4-35b3-6470-ecee4f6530f8/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png"
+  },
+  {
+    "id": "1456714515",
+    "bundle_id": "com.square-enix.DQMTerryRjp",
+    "name": "ドラゴンクエストモンスターズテリーのワンダーランドRETRO",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/3b/df/31/3bdf31e7-ff41-49a2-d313-d12312131a41/AppIcon-0-1x_U007emarketing-0-85-220-0-7.png/100x100bb.png"
+  },
+  {
+    "id": "1197552569",
+    "bundle_id": "com.drycactus.polybridge",
+    "name": "Poly Bridge",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/90/c7/bf/90c7bf8a-8d0f-3adb-a56e-30ba166f32a9/AppIcon-1x_U007emarketing-85-220-0-7.png/100x100bb.png"
+  },
+  {
+    "id": "1590990535",
+    "bundle_id": "jp.co.spikechunsoft.shiren5plus",
+    "name": "不思議のダンジョン 風来のシレン5plus",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/3b/6d/03/3b6d03dd-6410-65f0-4534-2ede09f7332b/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png"
+  },
+  {
+    "id": "1514617649",
+    "bundle_id": "com.2112TD.Refineryproductions",
+    "name": "2112TD：タワーディフェンス　サバイバル",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6d/f5/d4/6df5d4c3-9ce1-d56f-9f76-ce4c1ae21051/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1596736236",
+    "bundle_id": "com.rovio.abclassic22",
+    "name": "Rovio Classics: Angry Birds",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/16/b2/ca/16b2ca07-9218-4469-5e09-29addd3eff9e/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6740755738",
+    "bundle_id": "com.supernature.lostinfantaland",
+    "name": "ロスト イン ファンタランド",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7f/e9/96/7fe9967c-17aa-a8f1-86a2-4f30068881ee/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1350400235",
+    "bundle_id": "com.Level5.LT1RJP",
+    "name": "レイトン教授と不思議な町 EXHD for スマートフォン",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/dc/02/0c/dc020c84-7572-dac1-168e-498b1c35d00f/AppIcon-1x_U007emarketing-0-7-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6473873659",
+    "bundle_id": "jp.co.sundenshi.toaru2p",
+    "name": "Pとある魔術の禁書目録２",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a7/9e/9c/a79e9c8d-d7c1-22b4-5f37-23647927dcdf/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1552176109",
+    "bundle_id": "com.square-enix.tom",
+    "name": "聖剣伝説3 トライアルズオブマナ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/35/17/7b/35177bad-699d-1a61-7d9e-c214909bcd01/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6739204496",
+    "bundle_id": "com.paondp.simgys",
+    "name": "[パチスロ]吉宗(2025)",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/87/b1/95/87b19505-8f54-9a95-9227-f62a42acb243/AppIcon_sim-0-0-1x_U007ephone-0-11-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1522407890",
+    "bundle_id": "jp.co.kitadenshi.smyjuggler5",
+    "name": "SマイジャグラーⅤ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/89/1f/92/891f926f-dfa0-5cb7-25db-40d4d4b07e80/AppIcon-1x_U007emarketing-0-5-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6742257994",
+    "bundle_id": "com.kuwaki.karuq",
+    "name": "KaruQ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/65/cc/0f/65cc0ffe-76a2-4b60-806c-f77abcf07046/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1543161449",
+    "bundle_id": "net.kairosoft.iOS.bouken2",
+    "name": "冒険ダンジョン村2",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e6/f3/f8/e6f3f841-33b1-2526-b775-1ca2d2e93af1/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1631859420",
+    "bundle_id": "com.ndemiccreations.survivors",
+    "name": "アフターインク (劫後株式会社)",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c6/8f/92/c68f9289-e9c0-6b13-d56b-5e2e26735e38/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1094038347",
+    "bundle_id": "com.omolgamestudio.TheElevator",
+    "name": "君しかいない",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d6/03/b6/d603b650-b7e9-4071-ab17-09edf4cdc201/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6743115658",
+    "bundle_id": "com.landfall.tabspocketedition",
+    "name": "TABS Pocket Edition",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/57/65/18/576518d9-39f5-4591-2707-4e2ef347a6f1/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png"
+  },
+  {
+    "id": "1548403918",
+    "bundle_id": "jp.co.kitadenshi.sfunkyjuggler2",
+    "name": "Sファンキージャグラー2",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/1c/e1/fb/1ce1fbc5-839b-25bb-3b2a-c28f089f08e2/AppIcon-1x_U007emarketing-0-5-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1492041539",
+    "bundle_id": "com.square-enix.FFPR6",
+    "name": "FINAL FANTASY VI",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e2/ab/6b/e2ab6b66-2f22-9497-de24-4f053c8c16cc/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1357651989",
+    "bundle_id": "com.othertales.ticktockatalefortwo",
+    "name": "Tick Tock: A Tale for Two",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/a0/34/d8/a034d8cb-a22f-97e1-5a30-52573c2d27ef/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png"
+  },
+  {
+    "id": "381477230",
+    "bundle_id": "com.kairosoft.gm08",
+    "name": "ゲーム発展国＋＋",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/af/7c/94/af7c948f-dc94-0018-0118-25428b59133c/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png"
+  },
+  {
+    "id": "1477966166",
+    "bundle_id": "com.marmalade.monopoly",
+    "name": "モノポリー (MONOPOLY)",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/87/12/7d/87127dcb-8f5b-18ff-0b93-607c01719b3a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1021564440",
+    "bundle_id": "com.square-enix.final-fantasy-vii-jpn",
+    "name": "FINAL FANTASY VII",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple69/v4/8c/cb/ed/8ccbed73-45d3-da3b-2b87-fccb381c07aa/mzl.cxfvtpfa.png/100x100bb.png"
+  },
+  {
+    "id": "6450443784",
+    "bundle_id": "com.universal777.arz394",
+    "name": "パチスロ 新鬼武者2",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/8e/94/a2/8e94a27d-b8b2-8763-f05d-9769663f9c4d/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png"
+  },
+  {
+    "id": "1479608271",
+    "bundle_id": "com.rdamato.watchgames",
+    "name": "Arcadia - Watch用のアーケードゲーム",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/22/0a/86/220a867a-44b1-5ffc-8db6-90090c2d2765/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "625334537",
+    "bundle_id": "com.robtop.geometryjump",
+    "name": "Geometry Dash",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/87/a1/b1/87a1b173-cc9e-b506-c387-9faccdbb523e/AppIcon-1x_U007emarketing-0-11-0-85-220-0.png/100x100bb.png"
+  },
+  {
+    "id": "763692274",
+    "bundle_id": "com.rockstargames.gta3sa",
+    "name": "Grand Theft Auto: San Andreas",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c0/02/f2/c002f295-cf73-0278-8e73-d8d1f9e7a9af/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1349292121",
+    "bundle_id": "de.kamibox.typo",
+    "name": "supertype",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/49/98/0e/49980e24-3627-b7bd-8615-60e7786a641b/AppIcon-1x_U007emarketing-0-7-85-220-0.png/100x100bb.png"
+  },
+  {
+    "id": "6670190133",
+    "bundle_id": "net.kairosoft.iOS.dorayaki",
+    "name": "ドラえもんのどら焼き屋さん物語",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7c/6c/65/7c6c658c-ed7c-8f10-a82f-6cc9bef163be/AppIcon-1x_U007emarketing-0-5-85-220-0.png/100x100bb.png"
+  },
+  {
+    "id": "6443445179",
+    "bundle_id": "jp.dorasu.apps.hanahanahouohtensho",
+    "name": "激Jパチスロ ハナハナホウオウ〜天翔〜-30",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/2d/05/f3/2d05f3ca-fe16-7eba-a2b7-0bc16858426d/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png"
+  },
+  {
+    "id": "1605095285",
+    "bundle_id": "jp.co.kodansha.bokura",
+    "name": "違う冬のぼくら",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/5e/05/8e/5e058e7b-ce1f-4ee9-7770-1a2e0dbb18b7/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1444761746",
+    "bundle_id": "it.rortos.realflightsimulator",
+    "name": "RFS - Real Flight Simulator",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/40/7e/41/407e41f4-2864-314a-159b-83224a2d6b72/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png"
+  },
+  {
+    "id": "935216956",
+    "bundle_id": "co.3909.papersplease",
+    "name": "Papers, Please",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/97/3f/c1/973fc1ac-d8d0-028d-055d-db313fe3bd86/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png"
+  },
+  {
+    "id": "6738784092",
+    "bundle_id": "com.SecretMode.ALTTLCupboardsandDrawers",
+    "name": "A Little to the Left: Drawers",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cf/f2/a0/cff2a0da-c560-31a1-346d-052837e06081/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "336577502",
+    "bundle_id": "com.yourcompany.imJugglerEX",
+    "name": "アイムジャグラーＥＸ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/9e/f7/01/9ef7014e-16f2-6fa0-3db9-e312b40ce217/AppIcon-0-1x_U007emarketing-0-85-220-6.png/100x100bb.png"
+  },
+  {
+    "id": "1386813914",
+    "bundle_id": "com.wereviz.evolution",
+    "name": "あなたは希望です (You are Hope)",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/a5/2c/d7/a52cd7dd-e3f4-465d-783d-b97d264ab1a5/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png"
+  },
+  {
+    "id": "6747157509",
+    "bundle_id": "jp.sammynet.appstore.cp0003",
+    "name": "P北斗の拳 暴凶星",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3a/70/89/3a7089af-27b9-3194-9602-e5a729123238/AppIcon-1x_U007ephone-0-1-85-220-0.png/100x100bb.png"
+  },
+  {
+    "id": "837860959",
+    "bundle_id": "nz.co.codepoint.minimetro",
+    "name": "ミニメトロ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7a/ed/56/7aed5613-8242-de14-d125-fffdaebe8c7c/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png"
+  },
+  {
+    "id": "6479512734",
+    "bundle_id": "jp.co.bandainamcoent.BNEI0431",
+    "name": "NARUTO－ナルト－ ナルティメットストーム",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e7/9d/41/e79d41c0-13e6-b135-052d-d0a8d83e1881/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1516365841",
+    "bundle_id": "jp.fxtester.fxkensho",
+    "name": "FX検証",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/94/0d/3c/940d3c5c-8380-f9e4-c1a8-728eb80ef42f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6482988856",
+    "bundle_id": "com.entropy.Horse-Racing",
+    "name": "シンプルダービー",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/99/c2/a0/99c2a040-1a03-7458-f434-3ae831b54b16/AppIcon-0-0-1x_U007epad-0-sRGB-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1492041611",
+    "bundle_id": "com.square-enix.FFPR5",
+    "name": "FINAL FANTASY V",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/57/bf/e9/57bfe9fa-fd9b-cef2-1d93-a95d0c50116c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6476064417",
+    "bundle_id": "com.dgjam.tatsumaki",
+    "name": "ナイト・アンド・ドラゴン３：星の記憶",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f1/db/cd/f1dbcd74-95f5-c11b-56b1-3e1efdba18ca/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6446826650",
+    "bundle_id": "net.kairosoft.iOS.towns",
+    "name": "創造タウンズ島",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/a5/f1/14/a5f114e1-c7c9-3217-d13e-624bd4eb7b21/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png"
+  },
+  {
+    "id": "1474716211",
+    "bundle_id": "com.robotgentleman.game60secondsreatomized",
+    "name": "60 Seconds! Reatomized",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/47/ff/04/47ff0468-ecd4-9b2e-2faa-c63c1bef4215/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png"
+  },
+  {
+    "id": "1661064267",
+    "bundle_id": "com.square-enix.paranomaj",
+    "name": "パラノマサイト FILE23 本所七不思議",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/40/f3/51/40f3515d-d6b3-5600-9b37-552e1eb03f23/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1617391485",
+    "bundle_id": "com.blockpuzzle.us.ios",
+    "name": "ブロックブラスト (Block Blast)",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/98/6e/24/986e2404-6809-edd9-a853-09a50eef9247/AppIcon-0-0-1x_U007emarketing-0-11-0-sRGB-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6737974657",
+    "bundle_id": "jp.co.bandainamcoent.BNEI0438",
+    "name": "キングダム 覇道",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5b/0a/c4/5b0ac4ac-dfba-7fb4-2b37-269b8e35d220/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6743385713",
+    "bundle_id": "com.bubble.buster.rescue",
+    "name": "毛糸クラッシュ - パズル ドラゴンゲーム",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/dc/11/93/dc119341-f6c1-b96c-12ec-8b42130b2e76/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6741141249",
+    "bundle_id": "jp.co.gu3.oradora",
+    "name": "ジョジョの奇妙な冒険 オラオラオーバードライブ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2a/db/f5/2adbf53c-4ef1-1ef4-96c8-5786482c388b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6739097907",
+    "bundle_id": "com.linecorp.LGSMK19",
+    "name": "LINE：もじけし",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7e/9b/9f/7e9b9f22-905e-6ecf-ac04-55d743c96635/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6746465127",
+    "bundle_id": "com.battle.shoot.dragon",
+    "name": "セルサバイバー - ディフェンスゲーム",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2d/41/52/2d415218-2c12-18ec-27e6-f2685675de7b/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6461309538",
+    "bundle_id": "com.supernova.ssgms.jp.ios",
+    "name": "真・三國無双 覇",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/47/6d/a8/476da8aa-b75b-3382-24ab-f23509e4ab9d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6746246179",
+    "bundle_id": "com.abi.skewer.sort",
+    "name": "Foodie Sizzle: フーディー・シズル",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f2/57/c2/f257c2e4-6e88-7397-a995-0b3d4cd4c232/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6740388983",
+    "bundle_id": "jp.co.applibot.HelloKittyMerchMatch",
+    "name": "ハローキティ マーチマッチ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ea/1f/15/ea1f15f5-aef2-53a1-89ba-4b8606ddecea/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6743778850",
+    "bundle_id": "com.spiridge.slospi",
+    "name": "スロパチスピリット(スロスピ)｜パチスロ＆パチンコゲーム",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/99/8d/3a/998d3a00-faac-bebc-7b53-8ded4d75931f/AppIcon-0-0-1x_U007ephone-0-6-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6752234974",
+    "bundle_id": "jp.sammynet.next.orti0211",
+    "name": "[777Real]Lパチスロ 戦姫絶唱シンフォギア 正義の歌",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/59/e5/4f/59e54f45-1f4b-aaa0-96fa-6a40b9e35067/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/100x100bb.png"
+  },
+  {
+    "id": "6443575749",
+    "bundle_id": "com.gof.global",
+    "name": "ホワイトアウト・サバイバル",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/95/7c/d2/957cd2e2-9006-b0be-31f2-2a63e56e3d0d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6742812903",
+    "bundle_id": "com.bbq.food.sort",
+    "name": "グリルソート - バーベキューソート フーディーゲーム",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bd/cb/cc/bdcbcc2a-8df4-b1b3-7d7d-840158018e44/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1356498432",
+    "bundle_id": "com.clicker.mamodan",
+    "name": "まものダンジョン＋　モンスター育成＆バトルの放置ゲーム",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/40/40/ac/4040ac7f-8283-a0e0-97a9-889749c40694/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "431946152",
+    "bundle_id": "com.roblox.robloxmobile",
+    "name": "Roblox (ロブロックス)",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c7/4e/ab/c74eab34-19fd-a922-f9cd-5e716793e056/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6642698438",
+    "bundle_id": "wood.bolt.wordle.screw.nuts.puzzle",
+    "name": "ウッドパズル：Screw ネジ外すゲーム  - 人気 脳トレ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8c/70/0a/8c700a61-18f5-9fec-dddd-6376cd04d528/AppIcon-0-0-1x_U007emarketing-0-5-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6499209744",
+    "bundle_id": "com.grandgames.magicsort",
+    "name": "マジックソート (Magic Sort!)",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/de/89/3e/de893e87-f5b2-c031-bda5-fc904aedcad7/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6739554056",
+    "bundle_id": "com.run.tower.defense",
+    "name": "キングショット",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/74/27/3e/74273e55-e367-907a-2c85-1a687dc1f8ca/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6742088839",
+    "bundle_id": "jp.aktsk.games.kaiju-no8-the-game",
+    "name": "怪獣８号 THE GAME",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b3/43/2e/b3432e10-fc3a-d672-261c-d64afb91ba11/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6633425539",
+    "bundle_id": "com.diamonds.expert.game",
+    "name": "Screw Sort 3D: ボルト ネジニットパズルゲーム",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e6/8d/1f/e68d1f77-2e2b-739a-32f8-d0f37ee0c468/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6504332779",
+    "bundle_id": "com.GybeGames.ColorBlockJam",
+    "name": "Color Block Jam",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/46/b9/45/46b9458d-260b-ecd3-98f3-41e6ff20f79d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6505095234",
+    "bundle_id": "com.cars.color.sort",
+    "name": "Car Jam - バスストップ ジャムゲーム",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/23/e3/29/23e329c6-108c-9db7-637c-e0b620928f7f/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "638689075",
+    "bundle_id": "com.playrix.township-ios",
+    "name": "タウンシップ (Township)",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d6/77/bb/d677bb11-54b0-1324-dfc5-1badc98982fb/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6599838025",
+    "bundle_id": "com.tangled.rope",
+    "name": "Tangled Rope: Solve Puzzles!",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/31/93/43/3193439c-7066-460d-fe3c-961be600ba9b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6742122160",
+    "bundle_id": "com.game.friends.ios.toptop.jp",
+    "name": "TopTop(トップトップ) : サクッと遊んで、パッと友達",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f4/ea/fd/f4eafdc3-737e-b087-0e52-302f253fd945/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1229016807",
+    "bundle_id": "com.supercell.laser",
+    "name": "ブロスタ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6f/dc/4f/6fdc4f30-ffe3-55f9-9189-bc6bb37e9884/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6743779451",
+    "bundle_id": "com.spiridge.ss.hei0011",
+    "name": "[スロスピ]P戦国乙女7 終焉の関ヶ原",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4b/04/71/4b04715c-7fee-cc73-cd30-0f6c14075f16/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1529747588",
+    "bundle_id": "com.QdanApp.QdanGames",
+    "name": "どこでもパーティーゲーム「どこパ」：ワードウルフオンライン",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/12/82/ce/1282ce5c-f812-cb76-d705-cd7225574b00/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1623318294",
+    "bundle_id": "com.mergegame.icookie",
+    "name": "ゴシップハーバー：マージ & ストーリー",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/91/92/d1/9192d184-3c09-029a-fa83-9aaa7b501bef/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6742598879",
+    "bundle_id": "jp.co.bandainamcoent.BNEI0434",
+    "name": "ジャンプ＋ジャンブルラッシュ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ba/ff/b9/baffb9cb-2ede-16b1-2a09-779334c83806/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6670789598",
+    "bundle_id": "com.brain.tricky.smallstep.ios",
+    "name": "Brain Puzzle: Tricky Quest",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a0/94/dd/a094dd6a-d949-989d-0cc1-6f84bd233758/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6479970832",
+    "bundle_id": "jp.pokemon.pokemontcgp",
+    "name": "Pokémon TCG Pocket",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/87/3e/e6/873ee63f-7c87-2839-7a91-3d5c6484a3f8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1344700142",
+    "bundle_id": "com.mattel163.uno",
+    "name": "UNO!™",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ae/42/be/ae42be37-bd2c-adf5-d6d8-a2139d110e1f/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png"
+  },
+  {
+    "id": "6746894287",
+    "bundle_id": "tokyo.jaykeigames.jyoushiki",
+    "name": "超常識チェック-暇つぶし雑学脳トレクイズ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/74/1c/f9/741cf9cb-b342-92d0-526b-73a10ba5c112/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6471045672",
+    "bundle_id": "com.fatmerge.global",
+    "name": "グルメ・ジャーニー",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ef/37/e6/ef37e696-c384-481f-10c3-58c6565280a3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6749923054",
+    "bundle_id": "com.kurashiru.poipoi.usagi",
+    "name": "ポイポイうさぎ ポイ活ゲームでポイントが貯まる",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e7/65/0d/e7650d3b-c78d-7b21-b6c3-1e68addf1dd1/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6448786147",
+    "bundle_id": "com.lastwar.ios",
+    "name": "ラストウォー：サバイバル",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/86/f7/e6/86f7e633-cf3b-3d64-9151-97b02625eba8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6478063606",
+    "bundle_id": "com.colorblock.blockpuzzle.colorblockgame",
+    "name": "カラーブロック コンボブラスト",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/11/c8/52/11c852dc-0c30-46f8-69d2-13922c4e6e8e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6503272652",
+    "bundle_id": "com.readygo.barrel.ios",
+    "name": "ラストZ：サバイバルシューティング",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/71/a6/3c/71a63c64-e57b-625f-1af9-83a381fec6fa/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1469186379",
+    "bundle_id": "com.YoStarJP.MajSoul",
+    "name": "雀魂 -じゃんたま-",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e4/53/32/e45332f2-0314-b7be-8033-f6d2aedbfb43/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6475757306",
+    "bundle_id": "com.superplaystudios.disneysolitairedreams",
+    "name": "Disney Solitaire ディズニー ソリティア",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9b/fe/98/9bfe9895-1f07-cfad-0935-54a45d7ec421/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6468921495",
+    "bundle_id": "com.vitastudio.mahjong",
+    "name": "ヴィータ麻雀(Vita Mahjong)",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1d/fc/ed/1dfced86-cedf-d61e-349b-a1ae48cebd3c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6499306806",
+    "bundle_id": "sorting.games.goods.sort.triple.match3d.puzzle.stuff",
+    "name": "グッズソーティング3D：マッチゲーム",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0b/1f/01/0b1f013d-c622-2414-5734-5de92c199b12/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1606549505",
+    "bundle_id": "com.dreamgames.royalkingdom",
+    "name": "ロイヤルキングダム (Royal Kingdom)",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/46/bc/37/46bc3743-33eb-dbed-bc2e-53e26ac5fd2f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6740043080",
+    "bundle_id": "com.dino.screwdom",
+    "name": "Screwdom : ボルトパズルゲーム",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/93/04/f4/9304f4c7-40a2-2b37-85c0-639b78f10b02/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1044039663",
+    "bundle_id": "com.tactosh.quiz",
+    "name": "みんなで早押しクイズ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/82/a7/c8/82a7c870-f360-abc6-1b2f-c249cb2e524a/AppIcon-2-1x_U007epad-0-1-0-85-220-0.png/100x100bb.png"
+  },
+  {
+    "id": "6736896540",
+    "bundle_id": "com.actgames.HelloKittyMDS",
+    "name": "ハローキティ：マイドリームストア",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ca/d1/f6/cad1f6da-29cc-25ab-b90f-7d9669b004c8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6596745408",
+    "bundle_id": "jp.co.applibot.chiikawapocket",
+    "name": "ちいかわぽけっと",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/24/42/bf/2442bf4a-72e7-74d9-81f0-f240bc1f1ef9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6746141921",
+    "bundle_id": "com.xd.etheria.apple.asia",
+    "name": "イザリア",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/94/c2/3a/94c23ad9-ebb7-e308-60c2-a8c2e12ac4bd/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6444487398",
+    "bundle_id": "com.xgame.asia.jp",
+    "name": "マジックカード：マル描いて",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d9/e5/86/d9e586d4-d046-781d-9d6b-165cb2d52c11/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1544911813",
+    "bundle_id": "jp.co.beeworks.nameko.ganso",
+    "name": "元祖なめこ栽培キット〜放置でキノコを育てる育成ゲーム",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/23/0e/c8/230ec832-4f34-a78a-da0a-b77751c29fc8/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png"
+  },
+  {
+    "id": "6742640850",
+    "bundle_id": "com.fty.tonari",
+    "name": "隣の席はだれ？ - 暇つぶし論理パズルゲーム",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7d/57/de/7d57dec3-667d-e86a-7356-32cbccd396b2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6692629257",
+    "bundle_id": "com.hitappsgames.connectwords",
+    "name": "言葉つなぎ - つなげる言葉パズル",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ac/31/28/ac3128c1-5813-3b94-6652-3d938366e1f6/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6744317674",
+    "bundle_id": "com.color.wool.blast",
+    "name": "Wool Craze - 毛糸外し外す ソートパズルのゲーム",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b8/80/97/b8809783-3231-86a4-0906-82e3b752d4a1/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6499293031",
+    "bundle_id": "com.screw.puzzle.twist",
+    "name": "ネジマッチ - ネジ外し ナットズルゲーム",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b8/db/3b/b8db3b29-5708-4155-2080-e83650e68185/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "724594093",
+    "bundle_id": "com.linecorp.LGTMTM",
+    "name": "LINE：ディズニー ツムツム",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/de/84/eb/de84ebde-7c13-53c0-ef1e-e9fcd826d1e5/AppIcon-1x_U007emarketing-0-8-0-85-220-0.jpeg/100x100bb.png"
+  },
+  {
+    "id": "6749132002",
+    "bundle_id": "com.cat.hole.puzzle.ios",
+    "name": "おちにゃん!",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/07/b2/63/07b263c0-080d-2d9f-4a6c-c579288cc619/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6744439943",
+    "bundle_id": "jp.co.bandainamcoent.BNEI0418",
+    "name": "ドラゴンボール ゲキシン スクアドラ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f8/8a/20/f88a20e4-9993-bbd9-e110-e29b727eb370/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6475709488",
+    "bundle_id": "com.solitairetripeaks.masterdesign",
+    "name": "Carnival Tycoon: Coin Games",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/de/dd/29/dedd29cf-dd29-6886-69ce-10c350b773a0/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png"
+  },
+  {
+    "id": "1489932710",
+    "bundle_id": "com.sega.pjsekai",
+    "name": "プロジェクトセカイ カラフルステージ！ feat. 初音ミク",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/80/fb/71/80fb71a0-56ac-bb0b-84c3-674e4f03a5ec/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png"
+  },
+  {
+    "id": "6743779376",
+    "bundle_id": "com.spiridge.ss.hei0007",
+    "name": "[スロスピ]L戦国乙女4 戦乱に閃く炯眼の軍師",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0b/e7/ed/0be7ed2d-90e4-8fea-6621-3f1823be9ed3/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1482155847",
+    "bundle_id": "com.dreamgames.royalmatch",
+    "name": "ロイヤルマッチ（Royal Match)",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/44/ce/2a/44ce2aa4-994e-a69e-a3a8-097da31fdd62/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png"
+  },
+  {
+    "id": "6743064514",
+    "bundle_id": "com.og.nihonseihuku",
+    "name": "ニッポン征服 - 面白い 選択ゲーム",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e6/e6/ed/e6e6ed39-18cf-7ce6-c7a3-b66cdfcd5f49/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6747734279",
+    "bundle_id": "com.easejoy.jigsaw.solitaire.blockpuzzle",
+    "name": "Jigblock Puzzle",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f5/01/dc/f501dcab-1d2b-f2fe-ade8-6aec46f0f344/AppIcon-0-0-1x_U007epad-0-1-85-220.jpeg/100x100bb.png"
+  },
+  {
+    "id": "6698871201",
+    "bundle_id": "com.linecorp.LGSTT18",
+    "name": "LINE トリプルトレジャー",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/da/89/c8/da89c87a-36be-ddbe-8746-da5c09ade55e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6742221896",
+    "bundle_id": "com.abi.dream.unpacking",
+    "name": "Dreamy Room - 夢の部屋",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/dc/c1/ca/dcc1ca9d-b7a1-4750-791a-c42d648d91bc/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1491074310",
+    "bundle_id": "com.n3twork.tetris",
+    "name": "テトリス - Tetris®",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/1d/37/f31d37d6-e932-a350-6693-8793152eae33/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png"
+  },
+  {
+    "id": "6738771575",
+    "bundle_id": "screw3d.match.nuts.bolts.pin.jam.away.puzzle",
+    "name": "3D Bolt Master: ネジパズルゲーム",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c3/64/79/c36479d5-db9d-9d1f-4bb2-4c9f0f244b37/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1545088576",
+    "bundle_id": "jp.sammynet.next.orti0001",
+    "name": "777Real(777リアル) パチンコ･パチスロアプリ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/87/11/dd/8711dd35-4f73-a4d6-4b32-af3e21b2d54b/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/100x100bb.png"
+  },
+  {
+    "id": "1637753593",
+    "bundle_id": "jp.co.kitadenshi.juggleronline",
+    "name": "ジャグラーオンライン～パチスロアプリ＆パチンコ店舗情報～",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/70/db/5d/70db5d03-3d8b-7490-ca03-cd2c47e19d94/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6752617751",
+    "bundle_id": "jp.powl.solitaire",
+    "name": "Powlソリティア-ポイントが貯まるポイ活カードゲームアプリ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/08/79/18/08791817-1d7d-25ec-8d3e-404698df46c8/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6503284107",
+    "bundle_id": "com.homagames.studio.allinhole",
+    "name": "オールインホール (All in Hole)",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0a/44/d8/0a44d81b-b457-2591-100d-a091ef96b135/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6743779473",
+    "bundle_id": "com.spiridge.ss.snk0010",
+    "name": "[スロスピ]パチスロ 革命機ヴァルヴレイヴ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/51/7a/34/517a3417-b1f0-8541-9e54-dde367443e16/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1453840513",
+    "bundle_id": "com.zigzagame.tokyodebunker",
+    "name": "東京ディバンカー",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/90/f8/9b/90f89b2d-4df3-fa6d-ed5e-b61013aac38b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6749835913",
+    "bundle_id": "com.artdigic.e048bunker",
+    "name": "脱出ゲーム Villa Bunker 第1章",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/91/69/4d/91694d89-68e3-42d5-2b64-1af50c0f220a/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png"
+  },
+  {
+    "id": "6451399876",
+    "bundle_id": "com.proxima.dfm",
+    "name": "Delta Force",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b5/67/c1/b567c149-1178-d3c1-1c66-549f9dccfd12/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png"
+  },
+  {
+    "id": "1479198816",
+    "bundle_id": "com.rivergame.worldbattleGlobal",
+    "name": "トップウォー",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c7/da/93/c7da9317-fb16-0b8f-da6f-db8545b05f69/AppIcon-gl-1-0-0-1x_U007emarketing-0-11-0-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1545567989",
+    "bundle_id": "com.easybrain.number.puzzle.game",
+    "name": "ナンバーマッチ - 数字パズル",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1e/ea/57/1eea578f-311d-5872-1a10-7dc5641def90/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6749216599",
+    "bundle_id": "jp.sammynet.next.orti0220",
+    "name": "[777Real]e東京リベンジャーズ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ca/19/62/ca1962d0-198d-c9a0-406e-ae6cb74f3b9d/AppIcon-1x_U007ephone-0-1-85-220-0.png/100x100bb.png"
+  },
+  {
+    "id": "6737874398",
+    "bundle_id": "com.infiniplay.merge.fashion.romance.story.ios",
+    "name": "Merge Fashion: Romance Story",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/78/55/4b/78554b26-2c68-a0b8-6ff9-e55a237dd83e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1556357398",
+    "bundle_id": "com.nianticlabs.pikmin",
+    "name": "Pikmin Bloom",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/12/5e/0e/125e0e44-bf40-d65c-1da6-62b53e0fd9b2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6746113513",
+    "bundle_id": "com.nintendo.zaha",
+    "name": "ファイアーエムブレム シャドウズ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/ab/2f/3bab2fd5-9ae0-7e3f-1e68-498a9e26927a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6749438021",
+    "bundle_id": "com.flowgames.blocktree",
+    "name": "ブロックブラスト(NEW!)",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/91/10/e3/9110e3d6-de7b-e711-9091-b6942da20549/AppIcon-0-1x_U007epad-0-1-85-220-0.png/100x100bb.png"
+  },
+  {
+    "id": "1659995752",
+    "bundle_id": "com.laser.bounce.puzzle",
+    "name": "Laser Bounce Puzzle",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d9/93/43/d993430a-364b-d4fb-2e27-dda53977e628/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6523424272",
+    "bundle_id": "com.vento.findthecats",
+    "name": "ねこ探し(Find The Cat)",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8a/2b/05/8a2b0514-4cf2-2f24-dd57-661132f2f637/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "658511662",
+    "bundle_id": "jp.co.mixi.monsterstrike",
+    "name": "モンスターストライク",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/32/96/c3/3296c341-10f9-30e9-169b-6487459d8b5a/AppIcon-0-0-1x_U007emarketing-0-9-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6448104157",
+    "bundle_id": "com.JindoBlu.OfflineGamesIOS",
+    "name": "オフラインゲーム - 暇つぶし ゲーム - パズルゲーム",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9a/f5/ed/9af5ed48-cce5-30ac-a89d-08d923e3ffe7/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1094591345",
+    "bundle_id": "com.nianticlabs.pokemongo",
+    "name": "Pokémon GO",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/64/7a/cf/647acf96-e5cb-8193-fec7-cf42ef70a9e7/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1443446174",
+    "bundle_id": "com.amanotes.magictiles",
+    "name": "魔法のタイルズ 3: 音ゲー ピアノタイル",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6c/92/7a/6c927a47-a2fd-d00f-d136-8d4f622a6e5f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1312031248",
+    "bundle_id": "com.netease.ko",
+    "name": "荒野行動-スマホ版バトロワ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/16/97/75/169775f6-82e4-06d5-0ecc-759f30386439/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1351168404",
+    "bundle_id": "com.innersloth.amongus",
+    "name": "Among Us!",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5f/c0/a6/5fc0a632-8797-bb3d-4287-65fed3570029/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6748397500",
+    "bundle_id": "com.ecffri.arrows",
+    "name": "Arrows – Puzzle Escape",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2c/37/22/2c372216-e489-7955-4830-b6bb25efe648/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1105855019",
+    "bundle_id": "com.playrix.gardenscapes-m3-ios",
+    "name": "ガーデンスケイプ (Gardenscapes)",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/91/9a/a2/919aa2d8-ce66-f12b-a46d-a010869f7814/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "547145938",
+    "bundle_id": "jp.co.ponos.battlecats",
+    "name": "にゃんこ大戦争",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/1d/b1/0d1db110-11bd-a3b3-774b-251a629235a2/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6482849843",
+    "bundle_id": "com.fc.goods.sort.matching.puzzle.triplemaster",
+    "name": "商品ソーティング：マッチ3パズル",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c4/f2/d5/c4f2d5c8-465e-71fd-33f9-c64ab078a266/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png"
+  },
+  {
+    "id": "1579464667",
+    "bundle_id": "jp.pokemon.pokemonsleep",
+    "name": "Pokémon Sleep",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/18/1d/ca/181dca63-975e-ca1e-ff95-f8233daa7b52/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1173389241",
+    "bundle_id": "jp.planet12.AnimalTowerBattle",
+    "name": "どうぶつタワーバトル - オンライン対戦ゲーム",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f4/37/4d/f4374dcd-d26d-a21d-ba0c-81e2cdb812dc/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6479595079",
+    "bundle_id": "com.netmarble.tskgb",
+    "name": "セブンナイツ Re:BIRTH（セナリバ）",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2a/18/bd/2a18bd15-5e60-8eca-a23f-b22fe50a7d93/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6667111683",
+    "bundle_id": "com.bymk.ios.survivorgo.sangoku",
+    "name": "サバイバーGO〜三国志〜",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/83/9b/f8/839bf8e0-8de2-54b0-b750-fe695a4cce1f/AppIcon-0-0-1x_U007ephone-0-11-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1643509748",
+    "bundle_id": "com.merge.cooking.theme.restaurant.food",
+    "name": "マージクッキング テーマレストラン",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c4/6e/40/c46e40f6-9710-0622-1fd6-01a37c557a5d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6747368440",
+    "bundle_id": "nhk.app.tep",
+    "name": "NHKプラス（NHK ONE対応）",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e5/c4/e6/e5c4e63d-5d0c-8897-5e13-dbb5ccbed309/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6447160980",
+    "bundle_id": "com.ss.iphone.ugc.tiktok.lite",
+    "name": "TikTok Lite",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/25/87/4e/25874ec2-e896-73fa-7387-c0ee25a95eff/AppIcon_TikTok-0-0-1x_U007emarketing-0-8-0-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6511230177",
+    "bundle_id": "or.jp.expo2025.visitors",
+    "name": "EXPO 2025 Visitors",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/31/02/65/3102652a-f297-e423-77c4-b221414f043e/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png"
+  },
+  {
+    "id": "6480585407",
+    "bundle_id": "com.nttqonoq.osakakansaivirtualexpo2025",
+    "name": "EXPO 2025 バーチャル万博 ～空飛ぶ夢洲～",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d9/7e/3e/d97e3e93-31e4-a100-1cc3-be2cd9e82187/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1235601864",
+    "bundle_id": "com.ss.iphone.ugc.Ame",
+    "name": "TikTok ティックトック",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/94/4d/49/944d4950-4c18-7b22-0ae7-fd3f116a0232/AppIcon_TikTok-0-0-1x_U007epad-0-1-0-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "363590051",
+    "bundle_id": "com.netflix.Netflix",
+    "name": "Netflix",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/97/2b/c1/972bc1b8-e0ca-017d-5b31-cf497f527daa/AppIcon-0-0-1x_U007emarketing-0-11-0-sRGB-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "465887673",
+    "bundle_id": "jp.eplus.1st-app",
+    "name": "e＋(イープラス)　チケット・ニュース・スマチケ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/53/44/a3/5344a316-047e-f5ec-d278-fe63e1d77925/AppIcon-0-0-1x_U007ephone-0-11-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "545519333",
+    "bundle_id": "com.amazon.aiv.AIVApp",
+    "name": "Amazon Prime Video",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1c/13/c3/1c13c369-271e-1b71-c326-a4de43e4f0d3/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6504849169",
+    "bundle_id": "com.netshort.abroad",
+    "name": "NetShort - 人気短編ドラマ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f6/d8/98/f6d898aa-e7f2-71b0-349b-1082355bb644/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1313147771",
+    "bundle_id": "jp.tokyodisneyresort.portalapp",
+    "name": "Tokyo Disney Resort App",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/08/44/5d/08445dd4-be6f-2acd-5588-cb348e6d4d66/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "882477693",
+    "bundle_id": "jp.unext.mediaplayer",
+    "name": "U-NEXT - 映画やドラマ、アニメなどの動画が見放題",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/71/7b/9e/717b9ea6-a5d5-4339-f528-07b955757fec/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6748637575",
+    "bundle_id": "com.chanmina.sp",
+    "name": "CHANMINA",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4d/b0/4c/4db04ce9-122d-db12-db6f-6ce0b61a7078/AppIcon-0-0-1x_U007ephone-0-11-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1584918838",
+    "bundle_id": "com.dmm.premium",
+    "name": "DMM TV アニメ・ドラマ・映画・バラエティなどが見放題",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/38/82/d5/3882d534-887e-9753-4add-c8fff9987b95/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1446075923",
+    "bundle_id": "com.disney.disneyplus",
+    "name": "Disney+",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/59/17/cc/5917ccc3-75b3-e4b5-2471-f831ee57ff17/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "830340223",
+    "bundle_id": "jp.hamitv.hamitvapp1",
+    "name": "TVer(ティーバー) 民放公式テレビ配信サービス",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f4/1a/81/f41a8159-1578-eb2f-49f5-2fcd91aa3c3c/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1175974437",
+    "bundle_id": "jp.lhe.ebillet.TicketApp",
+    "name": "ローチケ電子チケット",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4d/f2/b7/4df2b7a6-cca7-8735-5d68-e182be7e1c08/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png"
+  },
+  {
+    "id": "6448176203",
+    "bundle_id": "com.newreading.goodreels",
+    "name": "GoodShort(グッドショート)-ショートドラマいつでも",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7a/82/3f/7a823f91-098b-c4eb-1474-317c7c3dae67/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1636235979",
+    "bundle_id": "com.newleaf.app.ios.vic",
+    "name": "ReelShort - オリジナル短尺ドラマ見放題",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/14/01/be/1401bec0-eeec-fbe9-0841-fd355d3378b0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "370515585",
+    "bundle_id": "jp.radiko.application",
+    "name": "radiko",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/27/3a/64/273a6451-3a4d-d5bb-7927-cbd10d0720e9/AppIcon-1x_U007emarketing-0-6-0-85-220-0.png/100x100bb.png"
+  },
+  {
+    "id": "1083839479",
+    "bundle_id": "com.kddi.ios.smartpass",
+    "name": "Pontaパス",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cf/40/04/cf400441-f090-acda-8f07-b40589f7c8cb/AppIcon-0-1x_U007epad-0-1-0-sRGB-85-220-0.png/100x100bb.png"
+  },
+  {
+    "id": "1523274037",
+    "bundle_id": "jp.co.pia.ticketpia",
+    "name": "チケットぴあ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6d/43/ba/6d43ba14-b502-32b9-28b8-ba5193d150e2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "945241274",
+    "bundle_id": "jp.co.fujitv.fujitvondemandviewer",
+    "name": "ドラマ / 映画はFOD テレビの見逃し配信や動画が見放題！",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/50/f4/f4/50f4f4db-f523-773f-04c3-0f2a48eec56f/AppIcon-0-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png"
+  },
+  {
+    "id": "1074866833",
+    "bundle_id": "tv.abema.AbemaTV",
+    "name": "ABEMA(アベマ) 新しい未来のTV",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/07/76/ab/0776ab2e-dbee-94b2-1610-33cda1f1dc5d/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "561632513",
+    "bundle_id": "com.peatix.peatix",
+    "name": "Peatix(ピーティックス)",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5b/07/cc/5b07cca3-3a5f-711f-2313-469c5b4df00d/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6514312894",
+    "bundle_id": "com.farsun.shortplay",
+    "name": "FlickReels - いつでもどこでもショートドラマ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/85/4f/94/854f9476-ba25-1136-9949-7bdf753288d9/AppIcon-1x_U007epad-0-1-0-85-220-0.png/100x100bb.png"
+  },
+  {
+    "id": "6747696993",
+    "bundle_id": "jp.co.excite.womanviewer",
+    "name": "ウーマンエキサイトマンガ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2d/aa/07/2daa0749-765d-684b-0d70-ec651167e622/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "549416492",
+    "bundle_id": "jp.hulu.atv",
+    "name": "Hulu / フールー 人気ドラマや映画、アニメなどが見放題",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6c/b3/f8/6cb3f8e2-ae09-9cb5-53f3-f25647d8c4c9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1630710367",
+    "bundle_id": "com.emole.bump",
+    "name": "BUMP - ショートドラマ / Short Drama",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/af/ab/64/afab648d-b9e7-28e3-b48f-6c917bc5c615/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6670430706",
+    "bundle_id": "com.dramabuzz.app",
+    "name": "DramaWave - 日本 / 韓国 / 人気短編ドラマ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f7/6b/7b/f76b7b99-88df-3058-bac5-b0523074c753/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6445905219",
+    "bundle_id": "com.storymatrix.drama",
+    "name": "DramaBox（ドラマボックス） -ショートドラマ見放題",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d8/ed/07/d8ed0713-0755-e2fa-8379-db9c9c16a8df/AppIcon-0-0-1x_U007ephone-0-1-0-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6746704982",
+    "bundle_id": "net.water.aqua",
+    "name": "ビデオ通話 AQUA - 癒やしの時間",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/10/44/9b/10449b9a-b125-e2ad-b6cb-d82007a4268e/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6751340147",
+    "bundle_id": "com.napbiz.mangaviewer",
+    "name": "コミルプ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b8/0e/fe/b80efe0f-519b-795b-f1b0-0b5f44e7a6b2/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6745585445",
+    "bundle_id": "jp.junglia.app",
+    "name": "ジャングリア沖縄オフィシャルアプリ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f0/0d/43/f00d43ed-f8e7-4bfd-271c-4d657306465f/AppIcon-production-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6474245691",
+    "bundle_id": "jp.goodsapp.mgoodsapp",
+    "name": "MERCH MARKET Goods App",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f7/eb/a4/f7eba425-b6a6-c134-070c-94e94eb76ac4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1619030760",
+    "bundle_id": "com.scatterlab.messenger",
+    "name": "ゼタ(zeta) - 想像が現実になるAIチャット",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cf/f2/e6/cff2e640-9393-7062-37b5-d5347b5968d7/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "590190880",
+    "bundle_id": "jp.co.geoonline",
+    "name": "ゲオ　クーポンが貰える！ゲーム予約もできる！",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6d/df/45/6ddf4559-6e66-295b-964b-b00932ab8004/AppIcon-1x_U007emarketing-0-6-0-85-220-0.png/100x100bb.png"
+  },
+  {
+    "id": "6751712897",
+    "bundle_id": "net.koichidomoto",
+    "name": "KOICHI DOMOTO OFFICIAL APP",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/3c/0a/0a3c0a18-dfdb-27a1-d063-21f8e602ff00/AppIcon-0-0-1x_U007emarketing-0-11-0-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6503421271",
+    "bundle_id": "com.vigloo",
+    "name": "Vigloo(ビグルー) - ショートドラマ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/6f/1c/096f1c2c-6d80-5d6c-6ef6-5b38de98cd07/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6723876042",
+    "bundle_id": "com.flash.flashdramaApp",
+    "name": "ミリオン-ショートドラマ見放題人気ドラマアプリMillion",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/36/9c/d8/369cd883-283a-bc2b-6cf5-4e745b474bd3/AppIcon-prod-1x_U007emarketing-0-11-0-85-220-0.png/100x100bb.png"
+  },
+  {
+    "id": "1509651539",
+    "bundle_id": "jp.co.avex.anypass",
+    "name": "AnyPASS",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c0/ca/ea/c0caea9f-5203-6866-cb6f-33201e5b5e83/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6743430762",
+    "bundle_id": "com.my.hanabi",
+    "name": "HANABI - ビデオ通話で感動をシェアしよう",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ee/ac/0e/eeac0e01-13ee-2e1e-f8f2-87624cade4b8/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "562162699",
+    "bundle_id": "jp.emtg.EMTGTicketApp",
+    "name": "チケプラ電子チケット",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4d/95/68/4d956821-aad0-1ba3-63ba-7c687ebbb509/AppIcon-0-0-1x_U007emarketing-0-6-0-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6746228438",
+    "bundle_id": "net.universe.moon",
+    "name": "夜のビデオ通話で繋がろう - ムーン",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/dc/ee/8d/dcee8dfa-eb07-1076-6547-fa50897ec83d/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1545541103",
+    "bundle_id": "jp.co.jcom.jcomsuperapp",
+    "name": "MY J:COM",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d5/7c/48/d57c483e-fe64-7dd0-425a-dbcd24869db6/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1621500153",
+    "bundle_id": "jp.co.eventify.ticketsapp",
+    "name": "電子チケット｜Funity（ファニティ）",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/90/da/78/90da784f-c674-2f78-78af-3ee8d3746651/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1438200353",
+    "bundle_id": "com.sega.platon",
+    "name": "GiGO（ギーゴ）",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/82/af/db/82afdb49-457a-090d-fcc9-5d9ae1fb93d9/AppIcon-0-1x_U007ephone-0-1-0-85-220-0.png/100x100bb.png"
+  },
+  {
+    "id": "1389775096",
+    "bundle_id": "art.teamlab.exhibitions.app",
+    "name": "teamLab",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/52/79/06/527906d4-0449-4410-faff-83d05fd10430/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6744237126",
+    "bundle_id": "tv.flareflow.drama",
+    "name": "FlareFlow",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b9/15/39/b915392a-f13d-f06e-7857-a963754f9dbf/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1626245204",
+    "bundle_id": "fun.moala.pocket",
+    "name": "MOALA Pocket",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f9/42/a8/f942a8b0-e8d3-208c-6cf3-4545180fa88f/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1333359339",
+    "bundle_id": "jp.co.rakuten.orion",
+    "name": "楽天チケットアプリ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/64/cb/b7/64cbb78f-7421-9d63-e309-95621a5eb5b0/AppIcon-1x_U007emarketing-0-7-0-0-85-220-0.png/100x100bb.png"
+  },
+  {
+    "id": "6446901002",
+    "bundle_id": "com.burbn.barcelona",
+    "name": "Threads",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/23/e5/fd/23e5fda8-89b1-62dc-fe45-f248170ce48a/Prod-0-0-1x_U007ephone-0-0-0-1-0-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1096918571",
+    "bundle_id": "com.google.Tachyon",
+    "name": "Google Meet",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8e/c9/44/8ec94450-f7a8-40b9-7531-70180404838d/MeetIcon-0-1x_U007epad-0-0-0-1-0-0-0-85-220-0.png/100x100bb.png"
+  },
+  {
+    "id": "985746746",
+    "bundle_id": "com.hammerandchisel.discord",
+    "name": "Discord - 一緒にしゃべって遊んで集まろう",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/e9/f1/0de9f115-f581-0840-b9d6-7893d8bebaff/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1459645446",
+    "bundle_id": "AlexisBarreyat.BeReal",
+    "name": "BeReal. リアルな日常を友達と。",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ba/3d/a3/ba3da3fd-7611-2adc-c792-046ec277a4a2/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "310633997",
+    "bundle_id": "net.whatsapp.WhatsApp",
+    "name": "WhatsApp Messenger",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/10/0a/f4/100af45d-1537-1cdf-5417-646a936702ea/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6444837964",
+    "bundle_id": "app.whoo",
+    "name": "whoo - ふー",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/14/7e/78/147e7849-79ef-5a62-9133-ba87b55639a1/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.jpeg/100x100bb.png"
+  },
+  {
+    "id": "443904275",
+    "bundle_id": "jp.naver.line",
+    "name": "LINE",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/09/d7/86/09d786f9-b00a-62c4-a60e-72789bf97cde/basic_default-0-0-1x_U007epad-0-6-0-0-sRGB-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1080235090",
+    "bundle_id": "is.with.ignis",
+    "name": "with(ウィズ) マッチングアプリ・出会い",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/08/cd/b2/08cdb270-5ec7-09ba-9a3c-bb47f69a7b9c/AppIcon-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "284882215",
+    "bundle_id": "com.facebook.Facebook",
+    "name": "Facebook",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/78/ff/c0/78ffc0c9-8baa-2908-da5a-0bf06065e3b6/Icon-Production-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1543177337",
+    "bundle_id": "com.hiclub.gravity",
+    "name": "GRAVITY(グラビティ)やさしいSNS-暇つぶしチャット",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/10/1a/0a/101a0ae3-98ed-41f1-6bc0-8c549d7df392/AppIcon-0-0-1x_U007emarketing-0-6-0-sRGB-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6605938172",
+    "bundle_id": "com.masataka.Mavi",
+    "name": "BAMEL ビデオ通話とスワイプでSNSを交換しよう。",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c9/44/ca/c944ca6b-f54d-9ef1-3814-22af4239ddb7/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "583376064",
+    "bundle_id": "jp.eure.pairs",
+    "name": "Pairs(ペアーズ) 恋活・婚活マッチングアプリ・出会い",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/28/2b/32/282b3295-7b0b-e75d-a1c4-4f67bdd5ace1/AppIcon-0-0-1x_U007ephone-0-1-P3-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1498877539",
+    "bundle_id": "jp.co.rakuten.link",
+    "name": "Rakuten Link",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a9/6f/59/a96f59ed-f2d3-2685-0b06-4bbbaff7973e/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1358576433",
+    "bundle_id": "com.plusmessage",
+    "name": "＋メッセージ（プラスメッセージ）",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6d/ec/42/6dec429d-56ef-873b-7493-d70146a6ed1f/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "906581110",
+    "bundle_id": "mu.note",
+    "name": "note（ノート）",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b8/d0/21/b8d0211e-3eab-9c6c-215b-0f93656c83c5/Icon-1x_U007epad-0-1-85-220-0.png/100x100bb.png"
+  },
+  {
+    "id": "852801905",
+    "bundle_id": "com.matchingagent.tapple",
+    "name": "タップル-マッチングアプリ・出会い",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4e/9c/54/4e9c5490-4259-cb52-cf2e-d14e2daad196/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6747656096",
+    "bundle_id": "work.ass1st.sora",
+    "name": "ビデオ通話 ソラ - ビデオチャットで甘い時間",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d4/1e/06/d41e06a7-8bd5-0910-3227-0c6516583054/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "686449807",
+    "bundle_id": "ph.telegra.Telegraph",
+    "name": "Telegram Messenger",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/99/f3/5e/99f35e1a-af53-9267-8d98-89838bab359a/AppIconLLC-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1321349856",
+    "bundle_id": "jp.jun.yoshida.paddy",
+    "name": "paddy -遊び足りないミドルと夢を叶えたい美女の出会い-",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2e/68/7b/2e687b83-bc13-e769-43fd-d0c8152c5021/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6747326948",
+    "bundle_id": "com.neon.spade",
+    "name": "ビデオ通話で大人の遊び - スペード",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0b/6a/49/0b6a4978-87b0-4bbd-c5f5-6ba8a29b1a0b/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6502700340",
+    "bundle_id": "jp.tapmatch.app.ios.production",
+    "name": "NewMatch 新しい友達との出会いを探そう びーまっち",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/53/dc/8953dcb4-a7aa-6a38-2028-8ca779624801/AppIcon-0-1x_U007ephone-0-1-85-220-0.png/100x100bb.png"
+  },
+  {
+    "id": "414478124",
+    "bundle_id": "com.tencent.xin",
+    "name": "WeChat",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/80/ad/eb/80adeb0e-5580-f51e-d0d0-64564029fb46/AppIcon-0-0-1x_U007epad-0-6-0-sRGB-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "362057947",
+    "bundle_id": "com.iwilab.KakaoTalk",
+    "name": "カカオトーク KakaoTalk",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/77/f2/25/77f22506-20ad-7104-1231-35d2fe63fdb7/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1553045339",
+    "bundle_id": "jp.cocone.livly",
+    "name": "リヴリーアイランド ペットと暮らす小さな箱庭サイズの島",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0b/bc/a3/0bbca338-bf3f-e6a9-35b9-8d633b476a68/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "542613198",
+    "bundle_id": "com.nhncorp.m2app",
+    "name": "BAND",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/15/7b/77/157b7761-6a83-6d69-ed60-4ed8884e7b95/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6443536642",
+    "bundle_id": "com.anaguma.jiffcyapp",
+    "name": "Jiffcy ジフシー テキスト通話アプリ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2d/dc/28/2ddc2857-417b-4a7d-46ca-25e2a88c7e1e/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "337248563",
+    "bundle_id": "net.pxv.iphone",
+    "name": "pixiv",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/69/9c/0c/699c0ce7-2346-6cbb-3945-900c38fcdca7/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "874139669",
+    "bundle_id": "org.whispersystems.signal",
+    "name": "Signal - プライベートメッセンジャー",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2b/f4/3b/2bf43b90-5929-c978-5376-f3f523e432f3/AppIcon-0-1x_U007epad-0-0-0-11-0-0-sRGB-0-85-220-0.png/100x100bb.png"
+  },
+  {
+    "id": "1420913667",
+    "bundle_id": "com.cloudn.oriental-lounge",
+    "name": "SOLOTTE!",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/95/09/36/9509363f-0f23-e461-7a0d-8bc4e6e02100/SolotteIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1175969205",
+    "bundle_id": "com.dena.pokota",
+    "name": "Pococha Live",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/34/d9/8b/34d98b6b-b8e6-6b0a-90a3-887e61bad724/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "741292507",
+    "bundle_id": "com.xingin.discover",
+    "name": "小红书 – 你的生活兴趣社区",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/17/5e/26/175e26a2-7fe4-abac-0be4-596532dc5cfc/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1456559188",
+    "bundle_id": "co.benx.weverse",
+    "name": "Weverse - アーティストとつながろう！",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c1/6b/fe/c16bfed6-cb68-d9fe-45a5-3f5cba269942/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1628617204",
+    "bundle_id": "com.natsuki.zellyApp",
+    "name": "MIYABI(ミヤビ)ひとりでも！友達さがし/合コンアプリ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cc/5a/fe/cc5afefa-6226-9581-0e30-5de98b6b89a0/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "454638411",
+    "bundle_id": "com.facebook.Messenger",
+    "name": "Messenger",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fe/3f/b4/fe3fb4e9-3ec9-abaf-a86e-34299638a4b5/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "750823886",
+    "bundle_id": "jp.co.wakupl.550909",
+    "name": "出会い - ワクワク（わくわく）- マッチングアプリ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/39/0a/ae/390aaefd-8421-717c-f4a9-5f0956ccc206/AppIcon-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1358057296",
+    "bundle_id": "jp.co.duo7.vr.iriam",
+    "name": "IRIAM - Vライブコミュニケーションアプリ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/76/dd/8e/76dd8e3f-de6f-8538-b227-24a2c684d0e2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1040047095",
+    "bundle_id": "Mycoon.SpoonMe",
+    "name": "Spoon(スプーン) : 音声コンテンツライブ配信アプリ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f7/66/89/f76689f6-6b8e-13d4-5aa7-c6b024fde6bc/AppIcon-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6740224152",
+    "bundle_id": "com.kongnak.pinToKita",
+    "name": "HIYORI(ヒヨリ)",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/04/f4/03/04f403c3-1744-8709-fa93-1374deea6b2d/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "582566462",
+    "bundle_id": "com.omiai-jp.omiai",
+    "name": "Omiai(オミアイ)  恋活・婚活のためのマッチングアプリ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9f/be/ce/9fbece44-289c-6ca5-8d38-57b376d1ac9e/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1559483982",
+    "bundle_id": "com.miHoYo.HoYoLAB",
+    "name": "HoYoLAB",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0e/1f/45/0e1f456d-5cd7-ea29-ebbc-eb652154f823/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "618052941",
+    "bundle_id": "jp.prosgate.194964",
+    "name": "イククル-出会いマッチングアプリ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7e/f5/41/7ef5411b-7c80-b1cb-66e7-3bfe5fcbd33b/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "458288241",
+    "bundle_id": "com.yudo.SaitouSan",
+    "name": "斉藤さん",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/74/d4/cd/74d4cd8c-48b9-5aff-b922-7325c6bd4dcc/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "521055533",
+    "bundle_id": "jp.co.i-bec.happyhills",
+    "name": "出会い - ハッピー - マッチングアプリ - 出会い系",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/98/b2/ba/98b2bad2-6cfa-522d-c481-05117067aec2/AppIcon_Felice-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1453661819",
+    "bundle_id": "com.reactcorp.cocalero-client",
+    "name": "パラレル 友達と遊べるたまり場アプリ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d3/b0/9d/d3b09d74-36f0-73c8-8c49-11c875d5cef9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1490387554",
+    "bundle_id": "jp.nanameue.yay",
+    "name": "Yay!（イェイ）- 同世代と趣味の通話コミュニティ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6a/51/85/6a51855b-2038-ed40-90ea-e2516b66d1c6/AppIcon_3-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6449933377",
+    "bundle_id": "jp.co.tapple.sincere",
+    "name": "Koigram(コイグラム)-マッチングアプリ・出会い",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fe/19/78/fe197883-4ac7-ab67-4278-f00ea47cd278/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "416436167",
+    "bundle_id": "com.isharing.iSharing-Lite",
+    "name": "iシェアリング - 位置情報共有 GPS 電話 追跡アプリ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/08/c6/a6/08c6a6c1-d8c6-ee66-a630-9c14886b17ce/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1213275626",
+    "bundle_id": "biz.hmu1.HMU",
+    "name": "パートナー探しはmix(ミックス)支え合い助け合うマッチング",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b4/5e/e6/b45ee6f3-dfa6-2463-70d2-8ae8e4a14980/AppIcon-0-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png"
+  },
+  {
+    "id": "1608009439",
+    "bundle_id": "com.soda.app55hz",
+    "name": "ビデオ通話 KANADE「わかる」をシェアする掲示板アプリ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/00/46/bf/0046bf8c-1ef6-9a21-8a15-4fc6e44bee2b/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1583004685",
+    "bundle_id": "com.bachelordate.bachelordate",
+    "name": "バチェラーデート-マッチングアプリ/出会い/恋活マッチング",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/13/61/86/136186aa-0ced-22a6-fad1-7f2bbcdf00b6/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6451037644",
+    "bundle_id": "jp.co.matsukiyococokara.app",
+    "name": "マツキヨココカラ公式アプリ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7b/59/e2/7b59e281-332b-e1bd-9d55-d40ac1d5c1c7/AppIcon-production-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6466987025",
+    "bundle_id": "com.daisojapan",
+    "name": "DAISOアプリ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/88/aa/06/88aa06ff-2a2c-8a43-7b92-0531dfd6a682/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "878577184",
+    "bundle_id": "zzkko.com.ZZKKO",
+    "name": "SHEIN - オンラインショッピング",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cb/c2/77/cbc277af-5dcf-fa10-ab38-40583c4b2476/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1641486558",
+    "bundle_id": "com.einnovation.temu",
+    "name": "Temu: 億万長者気分でお買い物",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9d/76/82/9d7682be-7a9a-9b02-b3ab-e863994e3e2f/AppIcon-1x_U007emarketing-0-8-0-0-P3-85-220-0.png/100x100bb.png"
+  },
+  {
+    "id": "374254473",
+    "bundle_id": "com.amazon.AmazonJP",
+    "name": "Amazon ショッピングアプリ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b9/0d/54/b90d543a-054a-7b30-4b52-4eb17ca511c7/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "667861049",
+    "bundle_id": "com.kouzoh.ios.mercari",
+    "name": "フリマアプリはメルカリ - メルペイのスマホ決済でもっとお得",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/01/ec/a0/01eca0c9-83f1-7dc9-0608-35e1063c6bac/AppIcon-0-0-1x_U007epad-0-5-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "446016180",
+    "bundle_id": "jp.co.yahoo.Shopping",
+    "name": "Yahoo!ショッピング",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f1/e8/85/f1e885e0-de3c-f56b-af9f-0af4b56a759f/AppIcon-0-0-1x_U007epad-0-6-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "404529222",
+    "bundle_id": "jp.zozo.zozotown",
+    "name": "ZOZOTOWN ファッション通販",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/eb/31/d7eb3182-2900-45f0-970a-9aafc8162bd8/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "419267350",
+    "bundle_id": "jp.co.rakuten.ichiba",
+    "name": "楽天市場 - お買い物で楽天ポイントが貯まる便利な通販アプリ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/49/8c/ae/498caef7-4b45-1da9-e991-8577497829f0/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "436672029",
+    "bundle_id": "com.alibaba.iAliexpress",
+    "name": "AliExpress Shopping App",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/40/b2/34/40b234fc-8151-91e7-b17a-95d42ce3e7a8/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "460989014",
+    "bundle_id": "com.uniqlo.catalogue",
+    "name": "UNIQLOアプリ-ユニクロアプリ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6b/1c/59/6b1c595f-abb3-3c95-054f-1ac9354c1204/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "821434357",
+    "bundle_id": "com.nttdocomo.premierclub",
+    "name": "dポイントクラブ：お得情報満載のドコモ公式ポイントクラブ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/14/32/ea/1432ea1a-877c-f2bd-e77e-57218d85a7fb/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "504542019",
+    "bundle_id": "com.gu-japan.osharemaker",
+    "name": "ジーユー",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b9/e6/11/b9e611e3-4925-b2b1-8ca5-9de476347401/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1478237405",
+    "bundle_id": "jp.co.yahoo.paypayfleamarket",
+    "name": "Yahoo!フリマ（旧PayPayフリマ）",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/76/23/1a/76231af2-3a3d-ec05-4e06-49f26e10052b/fleamarket-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1081293054",
+    "bundle_id": "jp.co.jreast.JrePoint",
+    "name": "JRE POINT アプリ- Suicaでポイントをためよう",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3f/f1/6c/3ff16ceb-0e12-4861-8ecc-c517636f4010/AppIcon-0-0-1x_U007emarketing-0-6-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6747553350",
+    "bundle_id": "com.tenpoapp.tm1s519.s519",
+    "name": "Olympicグループ公式アプリ「トコポン」",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c0/10/69/c01069cf-ff53-fb19-fd9e-dcd1c5c1f034/AppIcon-com_tenpoapp_tm1s519_s519-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "725208930",
+    "bundle_id": "jp.wear.wear",
+    "name": "WEAR ファッションコーディネート",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/75/5d/eb/755deb64-7eb1-e4e4-b2b1-dbab945b2d22/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "364504659",
+    "bundle_id": "jp.co.unisys.yamadamobile",
+    "name": "ヤマダデジタル会員",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0c/b3/9f/0cb39f9d-c413-3c4b-26c0-1dcd26354dbc/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "631993791",
+    "bundle_id": "com.muji.passport",
+    "name": "MUJI アプリ - 無印良品",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/66/0a/a7/660aa77e-3baa-7b6a-ab59-5dd7978c57ce/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1095459556",
+    "bundle_id": "com.nike.omega",
+    "name": "Nike：シューズやアパレル、ストーリー",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c8/9a/c1/c89ac1d1-d27f-ab8c-f57f-bd1852609c93/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "490078053",
+    "bundle_id": "jp.co.gmarket.gmarketJP",
+    "name": "Qoo10(キューテン)",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5d/f2/23/5df223e6-26bd-626d-356b-0f9b6b712e78/AppIconQoo10-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1538729037",
+    "bundle_id": "com.nugu.byapps",
+    "name": "nugu(ヌグ) - 韓国ファッション通販、3日特急発送",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/57/3d/94/573d940e-8a1d-db50-3b1a-adc8af8996d6/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1637547116",
+    "bundle_id": "com.musinsa.global",
+    "name": "MUSINSA : 韓国ファッション通販",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/99/23/75/992375ea-681f-958a-3449-349f4483d3e0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "404786725",
+    "bundle_id": "jp.co.point.DailyStyling",
+    "name": "アンドエスティ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/65/d2/35/65d23597-592a-cd8f-1d54-aac0b00971b1/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1527218749",
+    "bundle_id": "com.kauche.kauche-ios",
+    "name": "KAUCHE（カウシェ） - ショッピングアプリ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/54/cc/75/54cc751a-1888-8b0a-6ae5-66eb09fae1b2/AppIcon-0-0-1x_U007ephone-0-11-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "732775964",
+    "bundle_id": "jp.gr.shimamura.app",
+    "name": "しまむら",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ad/f8/67/adf867c8-c5b7-1348-81b5-d13de72fd568/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1495930546",
+    "bundle_id": "jp.co.rakuten.fashion",
+    "name": "Rakuten Fashion ファッション通販も楽天で！",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5c/f4/e3/5cf4e3c8-ae66-4b65-2196-b774dec44414/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "643133414",
+    "bundle_id": "jp.ne.palgroup.palshopapp",
+    "name": "PAL CLOSET （パルクローゼット）",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f5/d9/06/f5d90625-b633-9ecb-88c6-3e0046e627bb/AppIcon2023-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "661263905",
+    "bundle_id": "in.thebase",
+    "name": "Pay ID（ペイアイディー）- 今すぐお買い物、後払い決済",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0c/83/fd/0c83fd88-050f-bc25-e076-84c3d857ac68/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "547951480",
+    "bundle_id": "com.inditex.zara.iphone",
+    "name": "ZARA",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/22/fc/b1/22fcb1c6-7bde-19d1-867c-c411ec2a79c3/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6472909249",
+    "bundle_id": "jp.sinsa.dopa",
+    "name": "DOPA! （ドーパ）- オンライン オリパ・トレカアプリ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/87/8c/77/878c7795-4b72-4f65-fc15-75543c43c564/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "581838289",
+    "bundle_id": "jp.jmty.Jmty",
+    "name": "地元のフリマアプリ・ジモティー",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f6/f7/8c/f6f78cb7-b0b9-8288-1e98-316628086d24/AppIcon-production-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1452164827",
+    "bundle_id": "com.ingka.ikea.app",
+    "name": "IKEA",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/95/fb/2d/95fb2dd1-81cc-a8c7-7279-33f63b359d2d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6450266368",
+    "bundle_id": "com.japan-toreca.falcon9.prod",
+    "name": "オリパなら 日本トレカセンター公式 オリパ・トレカ アプリ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3e/b1/27/3eb12799-92bc-4b52-ae8a-324e768b585d/AppIcon-Prod-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "834465911",
+    "bundle_id": "com.hm.goe",
+    "name": "H&M",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/46/98/99/46989946-03e7-5e79-d098-892c80bf4ac7/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "921446819",
+    "bundle_id": "jp.co.mf-shogyo.mitsui-shopping-park",
+    "name": "三井ショッピングパークアプリ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e0/ef/fe/e0effe79-4fdf-0b68-e098-5390731a3d99/AppIcon-0-0-1x_U007ephone-0-6-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "518593576",
+    "bundle_id": "com.biccamera.ios.mobile.BicCamera",
+    "name": "ビックカメラ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f2/43/92/f2439250-cd3f-d082-8d52-a134a9639b4a/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "564530827",
+    "bundle_id": "com.autobacs.iphone.autobacsapp",
+    "name": "オートバックス-車のオイル交換、タイヤ交換、車検を簡単予約",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/97/4c/2a/974c2af5-22da-5155-8dc9-6eee14a6a9f6/AppIcon-1x_U007emarketing-0-6-0-85-220-0.png/100x100bb.png"
+  },
+  {
+    "id": "1431228295",
+    "bundle_id": "app.jp.ticketjam",
+    "name": "チケジャム - 安心安全チケットリセール・チケットアプリ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4a/6a/88/4a6a8801-c732-a231-8f8c-f68dc8805c0d/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6557039129",
+    "bundle_id": "com.tao.taojp",
+    "name": "TAO オンラインショッピングアプリ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/51/e7/6c/51e76ceb-3bda-5f2f-7980-055cb05ffc67/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "356968629",
+    "bundle_id": "jp.co.yahoo.YAuction",
+    "name": "Yahoo!オークション",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ef/92/74/ef9274d2-d085-3252-2ed2-c7c9dcea4d7e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1623326415",
+    "bundle_id": "jp.co.ms-lab.mashstore",
+    "name": "MASH STORE",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b5/1d/df/b51ddfdc-d832-2dfb-9b02-1495eae61cf0/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "907439511",
+    "bundle_id": "jp.co.nishimatsuyachain.app.chirashi.ios",
+    "name": "西松屋アプリ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/f9/ae/ee/f9aeeee7-9cc5-8641-5819-dff7c618ab1e/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png"
+  },
+  {
+    "id": "1560889555",
+    "bundle_id": "intl.costco.com.mobile.japan",
+    "name": "コストコ公式アプリ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7c/fa/39/7cfa39c9-7d1f-e630-c831-31e743e8b952/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1538114980",
+    "bundle_id": "bz.grail",
+    "name": "GRL(グレイル) / レディースファッション通販",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8c/77/b3/8c77b316-35a2-cef4-a452-5b81617eac3b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1455592069",
+    "bundle_id": "com.snkrdunk.ios",
+    "name": "スニーカーダンク トレカ・アパレル・スニーカーのフリマアプリ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8e/97/df/8e97dfb2-2adc-6768-8494-c413640cb1d4/AppIcon-prod-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "966865570",
+    "bundle_id": "com.cainz.cainz",
+    "name": "カインズアプリ - CAINZアプリ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/66/46/dc/6646dc3a-14ef-fa2a-d321-932c369c3369/AppIcon-0-0-1x_U007epad-0-11-0-P3-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1354883911",
+    "bundle_id": "jp.asahi.cyclebase",
+    "name": "サイクルベースあさひ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/94/6a/60/946a60a1-0f48-2802-813c-80b273aebbd8/AppIcon-1x_U007emarketing-0-6-0-0-85-220-0.png/100x100bb.png"
+  },
+  {
+    "id": "1266591536",
+    "bundle_id": "com.adidas.app",
+    "name": "adidas: スニーカーとアパレルのショッピングアプリ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/de/a4/a9/dea4a912-184c-e79a-4149-9e079d970fe1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "945944952",
+    "bundle_id": "jp.foonline.store",
+    "name": "F.O.Members Club（エフオーメンバーズクラブ）",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/67/2a/f4/672af443-f6d1-13b1-88ac-e98c7fc7da8d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "875750302",
+    "bundle_id": "com.access-company.ios.sh-jumpplus",
+    "name": "少年ジャンプ＋ 人気漫画が読める雑誌アプリ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/dc/cb/18/dccb1831-4d2b-41dd-af88-48529443b99f/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6723889274",
+    "bundle_id": "com.service.wick",
+    "name": "Wick まんがxSNS",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a5/82/23/a5822354-1abc-c6cc-53ff-0150b602c240/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "597088068",
+    "bundle_id": "jp.naver.linemanga",
+    "name": "LINEマンガ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8d/39/38/8d393883-dafd-9fbf-3305-67809c5ba775/AppIconJP-0-0-1x_U007epad-0-1-0-sRGB-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1091496983",
+    "bundle_id": "com.piccoma.app",
+    "name": "ピッコマ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/94/9e/f2/949ef267-f06f-87dc-e05f-b2843d91edb5/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1407165119",
+    "bundle_id": "jp.co.amutus.mechacomic.ios.manga",
+    "name": "めちゃコミック",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e9/27/f8/e927f849-8dc7-2bf9-8dc1-4ef1fc7e6298/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "302584613",
+    "bundle_id": "com.amazon.Lassen",
+    "name": "Kindle",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5c/91/23/5c91230e-59b4-5e36-6a2c-150919822f54/AppIcon-0-0-1x_U007emarketing-0-7-0-sRGB-0-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "998542154",
+    "bundle_id": "jp.co.kodansha.ios.magazinepocket",
+    "name": "マガポケ - 人気マンガが毎日楽しめるコミックアプリ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6b/94/0d/6b940d33-750d-bc36-db9d-5e29e9b65250/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png"
+  },
+  {
+    "id": "379693831",
+    "bundle_id": "com.audible.iphone",
+    "name": "Amazonオーディオブック - オーディブル",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b0/c3/39/b0c33958-6ec8-bb41-1ab3-14bc45ca0d7b/AppIcon-0-0-1x_U007emarketing-0-0-0-8-0-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6447310431",
+    "bundle_id": "jp.co.bookwalker.cwapp.ios",
+    "name": "カドコミ KADOKAWAの漫画アプリ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/56/bf/a6/56bfa6d9-743e-4979-5da8-c4f3ff3e923f/AppIcon-1x_U007epad-0-1-0-85-220-0.png/100x100bb.png"
+  },
+  {
+    "id": "1178874028",
+    "bundle_id": "com.square-enix.mangaupjp",
+    "name": "マンガＵＰ！",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/33/8a/13/338a138d-7f31-78a2-7557-3958233065bd/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1503128132",
+    "bundle_id": "com.gnovel.originalstation",
+    "name": "GoodNovel(グッドノベル) - ネット小説が楽しめる",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/24/18/f3/2418f3ae-1334-d4e7-e4e8-ad5caaa7bdbb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "553190752",
+    "bundle_id": "jp.co.nttsolmare.cmoa",
+    "name": "コミック シーモアの マンガ 本棚アプリ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/98/15/05/9815057c-0d25-8553-c86d-f3c3fdf2f740/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1252920795",
+    "bundle_id": "jp.co.shogakukan.sunday-webry",
+    "name": "サンデーうぇぶり",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ff/ed/ac/ffedac99-5a19-a7bb-d9ed-c8afd678b4c0/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1288398252",
+    "bundle_id": "jp.co.kodansha.comicdays",
+    "name": "コミックDAYS",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c9/af/88/c9af888c-6c63-5cd2-8664-015b8cbd3252/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1339588178",
+    "bundle_id": "jp.co.kodansha.palcy",
+    "name": "パルシィ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c8/71/e1/c871e187-ef9d-5a86-f7ba-c0d0f5f07b03/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1435571943",
+    "bundle_id": "jp.co.shueisha.mangamee",
+    "name": "マンガMee-人気の少女漫画が読めるマンガアプリ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a1/10/6e/a1106e5f-cf69-838d-d455-ea1a12db404a/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "774618503",
+    "bundle_id": "com.lnu.mgm",
+    "name": "マンガワン-小学館のオリジナル漫画を毎日配信",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/df/fc/b4/dffcb400-6563-b2c2-678c-f53bbc505812/AppIcon-10th-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6476686031",
+    "bundle_id": "jp.co.eisys.dlsitebook.prod",
+    "name": "DL Library",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/81/b2/9d/81b29d16-48f8-d64b-d6d2-043511b4ea3b/AppIcon-prod-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "939480693",
+    "bundle_id": "com.manga-bang.MangaBANG2",
+    "name": "マンガBANG！人気の漫画が読めるマンガアプリ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/92/0a/15/920a1598-1d15-8748-7bb9-34752cc893e6/AppIcon_release-0-0-1x_U007epad-0-1-0-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1256314933",
+    "bundle_id": "com.mangapark.app",
+    "name": "マンガPark-人気の少女漫画が毎日更新!話題作も読める",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/98/7a/44/987a446f-c579-fdce-6c86-4ab62976bbf5/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1351283922",
+    "bundle_id": "jp.co.shueisha.youngjump",
+    "name": "ヤンジャン＋",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b6/ee/1c/b6ee1c8d-8ebd-fd71-502b-a95345cdc055/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1487411615",
+    "bundle_id": "com.zebrack",
+    "name": "ゼブラック",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/59/02/2b/59022bcf-bf2b-432e-8139-014191752f9b/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "414617249",
+    "bundle_id": "com.square-enix.ggonline",
+    "name": "ガンガンONLINE",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0b/56/0c/0b560c93-1108-e7c4-aa0b-7b312eec27e8/AppIcon_anniversary-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "627457804",
+    "bundle_id": "com.kobo.rakuten",
+    "name": "楽天Kobo - 電子書籍の読書アプリ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c9/08/60/c908608f-46dc-b9af-d923-9b58165e7587/AppIcon-0-0-1x_U007epad-0-9-0-85-220-0.png/100x100bb.png"
+  },
+  {
+    "id": "1351704611",
+    "bundle_id": "jp.co.yahoo.ebookjapan",
+    "name": "漫画 ebookjapan　電子書籍コミック・まんが本棚",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/40/8b/fa/408bfa05-0c79-4e82-32fb-be6dbcfb79d2/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1045938821",
+    "bundle_id": "jp.co.dwango.nicomanga",
+    "name": "ニコニコ漫画 - 雑誌やWEBの人気マンガが読める",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b1/5c/b9/b15cb90f-4f3a-7697-19e4-2185ac221b92/AppIcon-0-1x_U007epad-0-1-0-85-220-0.png/100x100bb.png"
+  },
+  {
+    "id": "1136986870",
+    "bundle_id": "jp.co.rakuten.magazine",
+    "name": "楽天マガジン-電子書籍アプリで2500誌以上の雑誌が読み放題",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8b/ee/2f/8bee2fa5-2a2e-70a7-190f-236372f5a107/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png"
+  },
+  {
+    "id": "481155379",
+    "bundle_id": "com.dmm.DMMBooks",
+    "name": "DMMブックス 電子書籍リーダー",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/52/09/52/52095220-8548-cf72-67be-1157c44ab5bd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1081762516",
+    "bundle_id": "jp.kadokawa.el.kakuyomu",
+    "name": "カクヨムViewer - Web小説もライトノベルも読み放題",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/5e/fa/d75efa83-c4af-ffbc-863c-02a4e52d85f3/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1201123859",
+    "bundle_id": "jp.co.nspictures.mangahot",
+    "name": "マンガほっと 漫画（まんが）が毎日読めるマンガ本アプリ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/96/06/fb/9606fb9f-6a28-ca81-80ea-7167fb10a86a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1448827734",
+    "bundle_id": "com.comic-fuz",
+    "name": "マンガならコミックFUZ！人気漫画が毎日読めるマンガアプリ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/47/46/5e/47465e5f-35bf-24e2-cd58-5ce6dabffbdd/AppIcon_LV3-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "709003148",
+    "bundle_id": "com.COMICSMART.GANMA",
+    "name": "GANMA!（ガンマ）漫画アプリ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/25/4c/8c/254c8c42-706b-99ea-f3e1-a93925f4689c/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "455940557",
+    "bundle_id": "com.papy.medusa",
+    "name": "マンガ Renta! タテコミ漫画/人気まんが｜マンガアプリ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a9/93/67/a993674f-ea26-dbcf-0b9a-3bb05d63669d/AppIcon-0-1x_U007epad-0-1-85-220-0.png/100x100bb.png"
+  },
+  {
+    "id": "6458691155",
+    "bundle_id": "jp.co.rakuten.rtoon.ios",
+    "name": "R-TOON：楽天Koboのコミックアプリ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cc/32/da/cc32da7c-6f9a-7237-1abd-70e3e430b9ce/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1529238312",
+    "bundle_id": "jp.co.futabasha.gaugau",
+    "name": "異世界漫画・悪役令嬢まんが読むなら『マンガがうがう』",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/88/6e/0f/886e0fc0-bbc7-81c4-cf2f-f8a4c1dd8846/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "456859610",
+    "bundle_id": "jp.co.booklive",
+    "name": "ブックライブ 漫画も豊富な電子書籍",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/32/66/793266c2-bf7e-2a5c-d782-f282d0d2c08a/AppIcon-0-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png"
+  },
+  {
+    "id": "1459100798",
+    "bundle_id": "media.gmo.PrcmNovel",
+    "name": "プリ小説 byGMO 恋愛小説や夢小説が気軽に読める‪！",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f6/56/0f/f6560f0b-b070-6951-7f1e-e2cca1a11f00/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1271282207",
+    "bundle_id": "jp.peep.app",
+    "name": "peep - オリジナル小説・マンガ・Webtoonが読める",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f2/89/38/f289380c-a37c-c7c7-bfb6-a395dcc11cc5/AppIcon-0-1x_U007epad-0-1-0-85-220-0.png/100x100bb.png"
+  },
+  {
+    "id": "6449017005",
+    "bundle_id": "com.jumptoon",
+    "name": "ジャンプTOON 人気漫画が毎日読める",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8b/b0/a7/8bb0a782-0331-1345-5f37-8cbf0065ccee/AppIcon-prd-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "359066582",
+    "bundle_id": "jp.co.paperboy.Booklog",
+    "name": "読書管理ブクログ - 本棚/読書記録",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fc/d8/18/fcd818b2-d3c7-e0c1-5100-b7c00ee6652f/AppIcon-season-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1485686252",
+    "bundle_id": "jp.googirl.googirlplus",
+    "name": "Googirl plus（グーガールプラス）",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/27/c2/b9/27c2b913-918b-0814-37be-90784790de5b/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "721512660",
+    "bundle_id": "jp.nhncorp.COMICO",
+    "name": "comico",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/78/62/0e/78620e6d-19b0-ecea-be0f-64caac7bc372/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "859681456",
+    "bundle_id": "com.nttdocomo.mb.dmagazine",
+    "name": "dマガジン-人気雑誌が読み放題の電子書籍アプリ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/84/df/2d/84df2d26-babd-dc55-7e92-a745f546bac6/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "6744265845",
+    "bundle_id": "xyz.leafgreen",
+    "name": "幸せふれんず探し クローバー",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a9/16/69/a91669ef-50b7-9fdd-cfae-264ce747264c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "633864753",
+    "bundle_id": "com.mangajapan",
+    "name": "マンガボックス 漫画アプリ 人気のマンガ/コミックが読める！",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ec/53/58/ec535838-c24f-890d-5767-b5367aa0babc/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1541103336",
+    "bundle_id": "jp.co.fujitv.fod.manga",
+    "name": "漫画 / コミック 読むならFOD マンガ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ba/4e/0c/ba4e0c0e-186f-1a30-1cce-a29854e7017c/AppIcon-0-0-1x_U007emarketing-0-8-0-0-0-GLES2_U002c0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "894377244",
+    "bundle_id": "net.uchidak.Biblia",
+    "name": "読書管理ビブリア",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/87/44/6d/87446de1-2def-c50b-ca49-771821736166/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1583553204",
+    "bundle_id": "com.comic-gardo.gardo-plus",
+    "name": "コミックガルド＋ 異世界 漫画や話題コミックまで 漫画アプリ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f0/51/49/f0514983-0941-9bfe-b80a-d0fec46d0b9e/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "580775134",
+    "bundle_id": "jp.bookwalker.epub3",
+    "name": "BOOK WALKER - 人気の漫画や小説が続々登場",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c7/3d/b1/c73db12f-6305-24dc-0376-d18658aad4ff/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png"
+  },
+  {
+    "id": "1489576741",
+    "bundle_id": "jp.co.kinokuniya.pointApp",
+    "name": "紀伊國屋ポイントアプリ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0e/cc/eb/0ecceb99-0daa-b84b-b9df-61b1c1442325/AppIcon-0-0-1x_U007emarketing-0-8-0-0-sRGB-85-220.png/100x100bb.png"
+  }
+]
