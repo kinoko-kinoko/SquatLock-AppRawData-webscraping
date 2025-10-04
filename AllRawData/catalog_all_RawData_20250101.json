@@ -1,0 +1,122 @@
+[
+  {
+    "id": "443904275",
+    "bundle_id": "jp.naver.line",
+    "name": "LINE",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/c9/71/31/c9713133-5273-0a06-1453-0974b62a1290/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.jpg"
+  },
+  {
+    "id": "588271343",
+    "bundle_id": "jp.co.yahoo.android.yshopping",
+    "name": "Yahoo!ショッピング",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/c9/71/31/c9713133-5273-0a06-1453-0974b62a1290/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.jpg"
+  },
+  {
+    "id": "354108748",
+    "bundle_id": "jp.co.rakuten.android",
+    "name": "楽天市場",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/c9/71/31/c9713133-5273-0a06-1453-0974b62a1290/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.jpg"
+  },
+  {
+    "id": "1147396725",
+    "bundle_id": "com.nintendo.zara",
+    "name": "Super Mario Run",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/c9/71/31/c9713133-5273-0a06-1453-0974b62a1290/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.jpg"
+  },
+  {
+    "id": "966195227",
+    "bundle_id": "jp.gocro.smartnews.android",
+    "name": "SmartNews",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/c9/71/31/c9713133-5273-0a06-1453-0974b62a1290/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.jpg"
+  },
+  {
+    "id": "435888475",
+    "bundle_id": "jp.co.mercari.mercari",
+    "name": "メルカリ",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/c9/71/31/c9713133-5273-0a06-1453-0974b62a1290/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.jpg"
+  },
+  {
+    "id": "459333341",
+    "bundle_id": "com.facebook.Messenger",
+    "name": "Messenger",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/c9/71/31/c9713133-5273-0a06-1453-0974b62a1290/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.jpg"
+  },
+  {
+    "id": "585027354",
+    "bundle_id": "com.google.chrome.ios",
+    "name": "Google Chrome",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/c9/71/31/c9713133-5273-0a06-1453-0974b62a1290/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.jpg"
+  },
+  {
+    "id": "333903271",
+    "bundle_id": "com.twitter.twitter",
+    "name": "X",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/c9/71/31/c9713133-5273-0a06-1453-0974b62a1290/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.jpg"
+  },
+  {
+    "id": "644781413",
+    "bundle_id": "jp.co.mixi",
+    "name": "mixi",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/c9/71/31/c9713133-5273-0a06-1453-0974b62a1290/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.jpg"
+  },
+  {
+    "id": "284882215",
+    "bundle_id": "com.facebook.Facebook",
+    "name": "Facebook",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/c9/71/31/c9713133-5273-0a06-1453-0974b62a1290/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.jpg"
+  },
+  {
+    "id": "389801252",
+    "bundle_id": "com.google.android.apps.maps",
+    "name": "Google Maps",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/c9/71/31/c9713133-5273-0a06-1453-0974b62a1290/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.jpg"
+  },
+  {
+    "id": "429047995",
+    "bundle_id": "com.google.chrome.ios",
+    "name": "Google Chrome",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/c9/71/31/c9713133-5273-0a06-1453-0974b62a1290/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.jpg"
+  },
+  {
+    "id": "544007664",
+    "bundle_id": "com.google.mail",
+    "name": "Gmail",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/c9/71/31/c9713133-5273-0a06-1453-0974b62a1290/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.jpg"
+  },
+  {
+    "id": "310633997",
+    "bundle_id": "com.google.YouTube",
+    "name": "YouTube",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/c9/71/31/c9713133-5273-0a06-1453-0974b62a1290/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.jpg"
+  },
+  {
+    "id": "361309726",
+    "bundle_id": "com.instagram.ios",
+    "name": "Instagram",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/c9/71/31/c9713133-5273-0a06-1453-0974b62a1290/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.jpg"
+  },
+  {
+    "id": "497106725",
+    "bundle_id": "com.ubercab.UberClient",
+    "name": "Uber",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/c9/71/31/c9713133-5273-0a06-1453-0974b62a1290/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.jpg"
+  },
+  {
+    "id": "414706506",
+    "bundle_id": "com.lyft.driver",
+    "name": "Lyft",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/c9/71/31/c9713133-5273-0a06-1453-0974b62a1290/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.jpg"
+  },
+  {
+    "id": "282614216",
+    "bundle_id": "com.amazon.mShop.ios",
+    "name": "Amazon",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/c9/71/31/c9713133-5273-0a06-1453-0974b62a1290/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.jpg"
+  },
+  {
+    "id": "375380948",
+    "bundle_id": "com.yelp.yelpiphone",
+    "name": "Yelp",
+    "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/c9/71/31/c9713133-5273-0a06-1453-0974b62a1290/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.jpg"
+  }
+]
