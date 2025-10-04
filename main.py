@@ -242,18 +242,106 @@ def run_enrich_mode(directory_path: str, limit: Optional[int]):
         except (FileNotFoundError, json.JSONDecodeError) as e:
             print(f"Error processing or saving enriched file for {filepath}: {e}")
 
+def run_enrich_catalogs_mode(date_str: str, limit: Optional[int] = None):
+    """
+    Consolidates and enriches app catalogs for a specific date.
+    Stage 1: Consolidate data from BigCatalogRawData.
+    Stage 2: Enrich with sellerUrl and universal_links.
+    """
+    print(f"--- Running in ENRICH_CATALOGS mode for date: {date_str} ---")
+
+    # --- Stage 1: Data Consolidation and Deduplication ---
+    print("--- Stage 1: Consolidating and deduplicating app data ---")
+
+    input_pattern = os.path.join("BigCatalogRawData", f"catalog_*_RawData_{date_str}.json")
+    catalog_files = glob.glob(input_pattern)
+
+    if not catalog_files:
+        print(f"No catalog files found for date {date_str} with pattern: {input_pattern}")
+        return
+
+    print(f"Found {len(catalog_files)} catalog files to process.")
+
+    unique_apps = {}  # Use a dictionary for efficient deduplication by app ID
+    for filepath in catalog_files:
+        try:
+            with open(filepath, 'r', encoding='utf-8') as f:
+                apps = json.load(f)
+                for app in apps:
+                    app_id = app.get("id")
+                    if app_id and app_id not in unique_apps:
+                        unique_apps[app_id] = app
+        except (FileNotFoundError, json.JSONDecodeError, AttributeError) as e:
+            print(f"Error reading or processing {filepath}: {e}")
+            continue
+
+    consolidated_apps = list(unique_apps.values())
+    print(f"Consolidated to {len(consolidated_apps)} unique apps.")
+
+    # Save consolidated data
+    output_dir_consolidated = "AllRawData"
+    output_filename_consolidated = f"catalog_all_RawData_{date_str}.json"
+    save_to_json(consolidated_apps, output_filename_consolidated, output_dir_consolidated)
+
+    # --- Stage 2: Data Enrichment ---
+    print("\n--- Stage 2: Enriching consolidated app data ---")
+
+    apps_to_process = consolidated_apps
+    if limit:
+        print(f"Applying limit: processing first {limit} apps.")
+        apps_to_process = apps_to_process[:limit]
+
+    total_apps = len(apps_to_process)
+    enriched_apps = []
+
+    for i, app in enumerate(apps_to_process):
+        bundle_id = app.get("bundle_id", "N/A")
+        print(f"Enriching {i+1}/{total_apps}: {bundle_id}")
+
+        track_id = app.get("id")
+        if not track_id:
+            # Add app with empty enrichment data if track_id is missing
+            app["sellerUrl"] = None
+            app["universal_links"] = []
+            enriched_apps.append(app)
+            continue
+
+        # Fetch enrichment data
+        seller_url = get_seller_url(track_id)
+        universal_links = find_universal_links(seller_url, app.get("bundle_id"))
+
+        # Add data to the app object
+        app["sellerUrl"] = seller_url
+        app["universal_links"] = universal_links
+        enriched_apps.append(app)
+
+    print(f"\nEnrichment complete. Processed {len(enriched_apps)} apps.")
+
+    # Save final enriched data
+    output_dir_enriched = "UlAdd"
+    output_filename_enriched = f"catalog_all_UlAdd_{date_str}.json"
+    save_to_json(enriched_apps, output_filename_enriched, output_dir_enriched)
+
 def main():
     """Main function to parse arguments and run the specified mode."""
     parser = argparse.ArgumentParser(description="Scrape and enrich App Store data.")
-    parser.add_argument("mode", choices=["giant", "supplement", "builtin", "enrich"], help="The mode to run.")
-    parser.add_argument("argument", help="Country code for scrape modes, or directory path for enrich mode.")
+    parser.add_argument("mode", choices=["giant", "supplement", "builtin", "enrich", "enrich_catalogs"], help="The mode to run.")
+    parser.add_argument("argument", help="Depends on mode: country_code for giant/supplement, directory_path for enrich, or date (YYYYMMDD) for enrich_catalogs.")
     parser.add_argument("--limit", type=int, help="Limit the number of items processed for testing.")
     args = parser.parse_args()
 
     if args.mode in ["giant", "supplement"] and (not args.argument or len(args.argument) != 2):
         parser.error(f"A two-letter country_code is required for mode '{args.mode}'")
 
-    if args.mode == "enrich":
+    if args.mode == "enrich_catalogs":
+        try:
+            datetime.strptime(args.argument, "%Y%m%d")
+        except ValueError:
+            parser.error("A valid date string in YYYYMMDD format is required for mode 'enrich_catalogs'")
+        run_enrich_catalogs_mode(args.argument, args.limit)
+    elif args.mode == "enrich":
+        if not os.path.isdir(args.argument):
+             parser.error(f"A valid directory path is required for mode '{args.mode}'")
         run_enrich_mode(args.argument, args.limit)
     elif args.mode == "giant":
         run_giant_mode(args.argument, args.limit)
