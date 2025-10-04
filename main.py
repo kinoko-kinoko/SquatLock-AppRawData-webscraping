@@ -59,7 +59,7 @@ def get_app_data(country_code: str, genre_id: int, feed_type: str, limit: int, p
     for entry in entries:
         try:
             app_id = entry.get("id", {}).get("attributes", {}).get("im:id")
-            bundle_id = entry.get("id", {}).get("attributes", {}).get("im:bundleId")
+            bundle_id = entry.get("im:bundleId", {}).get("label") # Corrected path to bundleId
             if not app_id or app_id in processed_app_ids:
                 continue
             name = entry.get("im:name", {}).get("label")
