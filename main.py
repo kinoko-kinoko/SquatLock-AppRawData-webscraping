@@ -347,14 +347,21 @@ def main():
     """Main function to parse arguments and run the specified mode."""
     parser = argparse.ArgumentParser(description="Scrape and enrich App Store data.")
     parser.add_argument("mode", choices=["giant", "supplement", "builtin", "enrich", "enrich_catalogs"], help="The mode to run.")
-    parser.add_argument("argument", help="Depends on mode: country_code for giant/supplement, directory_path for enrich, or date (YYYYMMDD) for enrich_catalogs.")
+    # Make 'argument' optional to support 'builtin' mode which takes no argument.
+    parser.add_argument("argument", nargs='?', default=None, help="Depends on mode: country_code for giant/supplement, directory_path for enrich, or date (YYYYMMDD) for enrich_catalogs.")
     parser.add_argument("--limit", type=int, help="Limit the number of items processed for testing.")
     args = parser.parse_args()
 
-    if args.mode in ["giant", "supplement"] and (not args.argument or len(args.argument) != 2):
-        parser.error(f"A two-letter country_code is required for mode '{args.mode}'")
+    # Validate argument presence for modes that require it.
+    if args.mode in ["giant", "supplement", "enrich", "enrich_catalogs"]:
+        if args.argument is None:
+            parser.error(f"Mode '{args.mode}' requires an argument.")
 
-    if args.mode == "enrich_catalogs":
+    if args.mode in ["giant", "supplement"]:
+        if len(args.argument) != 2:
+            parser.error(f"A two-letter country_code is required for mode '{args.mode}'")
+        run_giant_mode(args.argument, args.limit)
+    elif args.mode == "enrich_catalogs":
         try:
             datetime.strptime(args.argument, "%Y%m%d")
         except ValueError:
@@ -364,12 +371,13 @@ def main():
         if not os.path.isdir(args.argument):
              parser.error(f"A valid directory path is required for mode '{args.mode}'")
         run_enrich_mode(args.argument, args.limit)
+    elif args.mode == "builtin":
+        # 'builtin' mode does not use the 'argument', so we call it directly.
+        run_builtin_mode(args.limit)
     elif args.mode == "giant":
         run_giant_mode(args.argument, args.limit)
     elif args.mode == "supplement":
         run_supplement_mode(args.argument, args.limit)
-    elif args.mode == "builtin":
-        run_builtin_mode(args.limit)
 
 if __name__ == "__main__":
     main()
