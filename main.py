@@ -184,9 +184,9 @@ def run_giant_mode(country_code: str, limit: Optional[int], test_run: bool = Fal
             all_apps.extend(get_app_data(country_code, genre_id, feed_type, fetch_limit, processed_ids))
 
     if all_apps:
-        date_str = datetime.now().strftime("%Y%m%d%H%M%S")
+        date_str = "20250101" if test_run else datetime.now().strftime("%Y%m%d")
         filename = f"catalog_{country_code}_RawData_{date_str}.json"
-        save_to_json(all_apps, filename, "BigCatalogRawData", test_run)
+        save_to_json(all_apps, filename, "BigCatalogRawData", test_run=test_run)
 
 def run_supplement_mode(country_code: str, limit: Optional[int], test_run: bool = False):
     """Runs the scraper for the supplement catalog."""
@@ -200,9 +200,9 @@ def run_supplement_mode(country_code: str, limit: Optional[int], test_run: bool 
         all_apps.extend(get_app_data(country_code, genre_id, "topfreeapplications", limit or 100, processed_ids))
 
     if all_apps:
-        date_str = datetime.now().strftime("%Y%m%d%H%M%S")
+        date_str = "20250101" if test_run else datetime.now().strftime("%Y%m%d")
         filename = f"catalog_supplement_{country_code}_RawData_{date_str}.json"
-        save_to_json(all_apps, filename, "SupplementCatalogRawData", test_run)
+        save_to_json(all_apps, filename, "SupplementCatalogRawData", test_run=test_run)
 
 def run_builtin_mode(limit: Optional[int], test_run: bool = False):
     """Runs the scraper for the built-in catalog."""
@@ -229,9 +229,9 @@ def run_builtin_mode(limit: Optional[int], test_run: bool = False):
             all_apps.extend(get_app_data(country, feed['genre_id'], feed['feed_type'], fetch_limit, processed_ids))
 
     if all_apps:
-        date_str = datetime.now().strftime("%Y%m%d%H%M%S")
+        date_str = "20250101" if test_run else datetime.now().strftime("%Y%m%d")
         filename = f"BuiltInCatalog_RawData_{date_str}.json"
-        save_to_json(all_apps, filename, "BuiltInCatalogRawData", test_run)
+        save_to_json(all_apps, filename, "BuiltInCatalogRawData", test_run=test_run)
 
 def run_enrich_mode(directory_path: str, limit: Optional[int]):
     """Reads JSON files from a directory, enriches them in parallel, and saves new files."""
@@ -283,18 +283,21 @@ def run_enrich_mode(directory_path: str, limit: Optional[int]):
         except (FileNotFoundError, json.JSONDecodeError) as e:
             print(f"Error processing or saving enriched file for {filepath}: {e}")
 
-def run_enrich_catalogs_mode(date_str: str, limit: Optional[int] = None):
+def run_enrich_catalogs_mode(date_str: str, limit: Optional[int] = None, test_run: bool = False):
     """
     Consolidates and enriches app catalogs for a specific date.
     Stage 1: Consolidate data from BigCatalogRawData.
     Stage 2: Enrich with sellerUrl and universal_links.
     """
     print(f"--- Running in ENRICH_CATALOGS mode for date: {date_str} ---")
+    if test_run:
+        print("--- Test Run Activated: Looking for test-prefixed files ---")
 
     # --- Stage 1: Data Consolidation and Deduplication ---
     print("--- Stage 1: Consolidating and deduplicating app data ---")
 
-    input_pattern = os.path.join("BigCatalogRawData", f"catalog_*_RawData_{date_str}.json")
+    file_prefix = "test-" if test_run else ""
+    input_pattern = os.path.join("BigCatalogRawData", f"{file_prefix}catalog_*_RawData_{date_str}.json")
     catalog_files = glob.glob(input_pattern)
 
     if not catalog_files:
@@ -322,7 +325,7 @@ def run_enrich_catalogs_mode(date_str: str, limit: Optional[int] = None):
     # Save consolidated data
     output_dir_consolidated = "AllRawData"
     output_filename_consolidated = f"catalog_all_RawData_{date_str}.json"
-    save_to_json(consolidated_apps, output_filename_consolidated, output_dir_consolidated)
+    save_to_json(consolidated_apps, output_filename_consolidated, output_dir_consolidated, test_run=test_run)
 
     # --- Stage 2: Data Enrichment ---
     print("\n--- Stage 2: Enriching consolidated app data ---")
@@ -368,7 +371,7 @@ def run_enrich_catalogs_mode(date_str: str, limit: Optional[int] = None):
     # Save final enriched data
     output_dir_enriched = "UlAdd"
     output_filename_enriched = f"catalog_all_UlAdd_{date_str}.json"
-    save_to_json(final_enriched_list, output_filename_enriched, output_dir_enriched)
+    save_to_json(final_enriched_list, output_filename_enriched, output_dir_enriched, test_run=test_run)
 
 def main():
     """Main function to parse arguments and run the specified mode."""
@@ -411,7 +414,7 @@ def main():
             datetime.strptime(args.argument, "%Y%m%d")
         except ValueError:
             parser.error(f"Mode '{args.mode}' requires a valid date string in YYYYMMDD format.")
-        run_enrich_catalogs_mode(args.argument, args.limit)
+        run_enrich_catalogs_mode(args.argument, args.limit, args.test_run)
 
 if __name__ == "__main__":
     main()
