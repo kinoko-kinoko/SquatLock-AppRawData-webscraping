@@ -1,4 +1,4 @@
-name: Test Scrape App Store Rankings
+name: Test Scrape and Enrich
 
 on:
   workflow_dispatch:
@@ -24,15 +24,15 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run scraper for Giant Catalog (Limited)
-        run: python main.py giant ${{ matrix.country }} --limit 50
+        run: python main.py giant ${{ matrix.country }} --limit 10
 
       - name: Run scraper for Supplement Catalog (Limited)
-        run: python main.py supplement ${{ matrix.country }} --limit 50
+        run: python main.py supplement ${{ matrix.country }} --limit 10
 
       - name: Upload country-specific artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: test-raw-data-${{ matrix.country }}
+          name: raw-data-${{ matrix.country }}
           path: |
             BigCatalogRawData/
             SupplementCatalogRawData/
@@ -53,14 +53,57 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run scraper for Built-in Catalog (Limited)
-        run: python main.py builtin --limit 50
+        run: python main.py builtin --limit 10
 
       - name: Upload built-in artifact
         uses: actions/upload-artifact@v4
         with:
-          name: test-builtin-data
+          name: builtin-data
           path: BuiltInCatalogRawData/
           if-no-files-found: error
 
-  # No commit job in the test workflow to avoid cluttering the repository history.
-  # The goal is just to verify that the scripts run and produce artifacts.
+  enrich_data:
+    runs-on: ubuntu-latest
+    needs: [scrape, build_builtin]
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Download all artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: ./
+          merge-multiple: true
+
+      - name: List files before enriching
+        run: ls -lR
+
+      - name: Run enrich mode on Giant Catalog data
+        run: python main.py enrich BigCatalogRawData --limit 5
+
+      - name: Run enrich mode on Supplement Catalog data
+        run: python main.py enrich SupplementCatalogRawData --limit 5
+
+      - name: Run enrich mode on Built-in Catalog data
+        run: python main.py enrich BuiltInCatalogRawData --limit 5
+
+      - name: List files after enriching
+        run: ls -lR
+
+      - name: Upload enriched artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: enriched-data
+          path: |
+            BigCatalogRawData/*_enriched.json
+            SupplementCatalogRawData/*_enriched.json
+            BuiltInCatalogRawData/*_enriched.json
+          if-no-files-found: error
