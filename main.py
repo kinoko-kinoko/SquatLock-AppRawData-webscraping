@@ -90,9 +90,11 @@ def get_app_data(country_code: str, genre_id: int, feed_type: str, limit: int, p
             print(f"Error parsing an entry from {url}: {e}")
     return new_apps
 
-def save_to_json(data: List[Dict[str, Any]], filename: str, directory: str):
+def save_to_json(data: List[Dict[str, Any]], filename: str, directory: str, test_run: bool = False):
     """Saves the collected app data to a JSON file."""
     os.makedirs(directory, exist_ok=True)
+    if test_run:
+        filename = f"test-{filename}"
     filepath = os.path.join(directory, filename)
     print(f"Saving data to {filepath}...")
     with open(filepath, 'w', encoding='utf-8') as f:
@@ -162,25 +164,31 @@ def fetch_enrichment_data(app: Dict[str, str]) -> Tuple[str, Dict[str, Any]]:
 
 # --- Mode-specific Functions ---
 
-def run_giant_mode(country_code: str, limit: Optional[int]):
+def run_giant_mode(country_code: str, limit: Optional[int], test_run: bool = False):
     """Runs the scraper for the giant catalog."""
     print(f"--- Running in GIANT mode for {country_code} ---")
     all_apps, processed_ids = [], set()
-    all_genre_ids = GAME_GENRE_IDS + OTHER_GENRE_IDS
-    if limit:
-        all_genre_ids = all_genre_ids[:1]
+
+    if test_run:
+        print("--- Test Run Activated: Scraping Games category only ---")
+        all_genre_ids = [6014] # Games category ID
+    else:
+        all_genre_ids = GAME_GENRE_IDS + OTHER_GENRE_IDS
+
     feed_types = ["topfreeapplications", "toppaidapplications"]
 
     for genre_id in all_genre_ids:
         for feed_type in feed_types:
-            all_apps.extend(get_app_data(country_code, genre_id, feed_type, limit or 100, processed_ids))
+            # Use the provided limit, defaulting to 100 for tests, 200 otherwise
+            fetch_limit = limit if limit is not None else 100 if test_run else 200
+            all_apps.extend(get_app_data(country_code, genre_id, feed_type, fetch_limit, processed_ids))
 
     if all_apps:
         date_str = datetime.now().strftime("%Y%m%d%H%M%S")
         filename = f"catalog_{country_code}_RawData_{date_str}.json"
-        save_to_json(all_apps, filename, "BigCatalogRawData")
+        save_to_json(all_apps, filename, "BigCatalogRawData", test_run)
 
-def run_supplement_mode(country_code: str, limit: Optional[int]):
+def run_supplement_mode(country_code: str, limit: Optional[int], test_run: bool = False):
     """Runs the scraper for the supplement catalog."""
     print(f"--- Running in SUPPLEMENT mode for {country_code} ---")
     all_apps, processed_ids = [], set()
@@ -194,9 +202,9 @@ def run_supplement_mode(country_code: str, limit: Optional[int]):
     if all_apps:
         date_str = datetime.now().strftime("%Y%m%d%H%M%S")
         filename = f"catalog_supplement_{country_code}_RawData_{date_str}.json"
-        save_to_json(all_apps, filename, "SupplementCatalogRawData")
+        save_to_json(all_apps, filename, "SupplementCatalogRawData", test_run)
 
-def run_builtin_mode(limit: Optional[int]):
+def run_builtin_mode(limit: Optional[int], test_run: bool = False):
     """Runs the scraper for the built-in catalog."""
     print("--- Running in BUILTIN mode ---")
     all_apps, processed_ids = [], set()
@@ -223,7 +231,7 @@ def run_builtin_mode(limit: Optional[int]):
     if all_apps:
         date_str = datetime.now().strftime("%Y%m%d%H%M%S")
         filename = f"BuiltInCatalog_RawData_{date_str}.json"
-        save_to_json(all_apps, filename, "BuiltInCatalogRawData")
+        save_to_json(all_apps, filename, "BuiltInCatalogRawData", test_run)
 
 def run_enrich_mode(directory_path: str, limit: Optional[int]):
     """Reads JSON files from a directory, enriches them in parallel, and saves new files."""
@@ -366,9 +374,9 @@ def main():
     """Main function to parse arguments and run the specified mode."""
     parser = argparse.ArgumentParser(description="Scrape and enrich App Store data.")
     parser.add_argument("mode", choices=["giant", "supplement", "builtin", "enrich", "enrich_catalogs"], help="The mode to run.")
-    # Make 'argument' optional to support 'builtin' mode which takes no argument.
     parser.add_argument("argument", nargs='?', default=None, help="Depends on mode: country_code, directory_path, or date (YYYYMMDD).")
     parser.add_argument("--limit", type=int, help="Limit the number of items processed for testing.")
+    parser.add_argument("--test-run", action="store_true", help="Prefix output files with 'test-' and modify behavior for testing.")
     args = parser.parse_args()
 
     # --- Mode Dispatching ---
@@ -376,7 +384,7 @@ def main():
     if args.mode == 'builtin':
         if args.argument is not None:
             parser.error("Mode 'builtin' does not take an argument.")
-        run_builtin_mode(args.limit)
+        run_builtin_mode(args.limit, args.test_run)
         return
 
     # All other modes require an argument.
@@ -386,12 +394,12 @@ def main():
     if args.mode == 'giant':
         if len(args.argument) != 2:
             parser.error(f"Mode '{args.mode}' requires a two-letter country_code.")
-        run_giant_mode(args.argument, args.limit)
+        run_giant_mode(args.argument, args.limit, args.test_run)
 
     elif args.mode == 'supplement':
         if len(args.argument) != 2:
             parser.error(f"Mode '{args.mode}' requires a two-letter country_code.")
-        run_supplement_mode(args.argument, args.limit)
+        run_supplement_mode(args.argument, args.limit, args.test_run)
 
     elif args.mode == 'enrich':
         if not os.path.isdir(args.argument):
