@@ -1,0 +1,66 @@
+name: Test Scrape App Store Rankings
+
+on:
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        country: [us, jp] # Limit to a few countries for testing
+      fail-fast: false
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run scraper for Giant Catalog (Limited)
+        run: python main.py giant ${{ matrix.country }} --limit 50
+
+      - name: Run scraper for Supplement Catalog (Limited)
+        run: python main.py supplement ${{ matrix.country }} --limit 50
+
+      - name: Upload country-specific artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-raw-data-${{ matrix.country }}
+          path: |
+            BigCatalogRawData/
+            SupplementCatalogRawData/
+          if-no-files-found: error
+
+  build_builtin:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run scraper for Built-in Catalog (Limited)
+        run: python main.py builtin --limit 50
+
+      - name: Upload built-in artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-builtin-data
+          path: BuiltInCatalogRawData/
+          if-no-files-found: error
+
+  # No commit job in the test workflow to avoid cluttering the repository history.
+  # The goal is just to verify that the scripts run and produce artifacts.
