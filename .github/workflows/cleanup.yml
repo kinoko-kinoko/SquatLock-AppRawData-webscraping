@@ -1,0 +1,55 @@
+name: Cleanup Artifacts and Caches
+
+on:
+  workflow_dispatch:
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    permissions:
+      actions: write
+      contents: read
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Delete all artifacts (Loop until empty)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "Starting exhaustive artifact cleanup..."
+          # アーティファクトがなくなるまでループ削除
+          while : ; do
+            ARTIFACTS=$(gh api -H "Accept: application/vnd.github+json" /repos/${{ github.repository }}/actions/artifacts?per_page=100 --jq '.artifacts[].id')
+            
+            if [ -z "$ARTIFACTS" ]; then
+              echo "No more artifacts found."
+              break
+            fi
+
+            echo "Deleting batch of artifacts..."
+            for id in $ARTIFACTS; do
+              gh api -X DELETE /repos/${{ github.repository }}/actions/artifacts/$id || echo "Failed to delete artifact $id"
+            done
+          done
+
+      - name: Delete all caches (Loop until empty)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "Starting exhaustive cache cleanup..."
+          # キャッシュがなくなるまでループ削除
+          while : ; do
+            CACHES=$(gh api -H "Accept: application/vnd.github+json" /repos/${{ github.repository }}/actions/caches?per_page=100 --jq '.actions_caches[].id')
+
+            if [ -z "$CACHES" ]; then
+              echo "No more caches found."
+              break
+            fi
+
+            echo "Deleting batch of caches..."
+            for id in $CACHES; do
+              gh api -X DELETE /repos/${{ github.repository }}/actions/caches/$id || echo "Failed to delete cache $id"
+            done
+          done
